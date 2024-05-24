@@ -1,0 +1,30 @@
+project:
+  type: sdca-theme
+
+website:
+  title: "DP-Next"
+  # TODO: Change REPO-NAME to the name of the current repo
+  site-url: "https://steno-aarhus.github.io/dp-next/"
+  repo-url: "https://github.com/steno-aarhus/dp-next"
+  navbar:
+    pinned: true
+    left:
+      - index.qmd 
+      - wp1.qmd 
+      - wp2.qmd 
+      - wp3.qmd 
+      - wp4.qmd 
+    tools:
+      - icon: github
+        href: "https://github.com/steno-aarhus/"
+      - icon: twitter
+        href: "https://twitter.com/StenoAarhusRes"
+
+format: sdca-theme-html
+bibliography: references.bib
+csl: vancouver.csl
+
+editor: 
+  markdown:
+    wrap: 72
+    canonical: true
