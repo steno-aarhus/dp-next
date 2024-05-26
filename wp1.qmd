@@ -1,3 +1,21 @@
 ---
 title: "Work Package 1"
 ---
+
+## Overall
+
+```{mermaid}
+%%| file: images/gantt.mmd
+%%| label: fig-gantt
+%%| fig-cap: "General Gantt chart for all of DP-Next."
+```
+
+## WP specific
+
+```{mermaid}
+%%| file: images/gantt-wp1.mmd
+%%| label: fig-gantt-wp1 
+%%| fig-cap: "Gantt chart for Work Package 1"
+```
+
+
