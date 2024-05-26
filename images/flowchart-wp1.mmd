@@ -1,0 +1,25 @@
+flowchart LR
+  ckr(["Central\nknowledge\nrepository"])
+
+  ap[Analysis plans]
+  dmp[Data manage-\nment plans]
+  sp[Study protocols]
+
+  seedcase{{Collaboration: Seedcase\nfor education and software}}
+  dd[Documented decisions]
+  cr[Regular\ncode reviews]
+
+  pmii[Project management\nusing iterative and\nincremental methods]
+  ptb[Central project\ntask board]
+  ccc[Shared, central\ncommunication channel]
+  dfp[Documentation-first\npractices]
+
+  upskill[Upskilling\nactivities]
+
+  ap & dmp & sp & seedcase & dd --> ckr
+  ckr <--> cr
+  seedcase --> ptb & pmii & cr & upskill
+  pmii <--> ptb & ccc
+
+
+  dfp --> ckr & dd
