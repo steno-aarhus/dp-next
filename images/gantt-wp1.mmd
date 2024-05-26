@@ -1,0 +1,44 @@
+---
+config:
+    theme: "neutral"
+    themeCSS: "svg {width: 700px}"
+    gantt:
+        barHeight: 50
+        leftPadding: 175
+        fontSize: 20
+        sectionFontSize: 20
+        barGap: 10
+---
+
+gantt
+  title Tasks, Milestones, and Deliverables for WP1
+  dateFormat  YYYY-MM-DD
+  axisFormat %Y
+  tickInterval 1year
+  todayMarker off
+  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+  section Ongoing<br>activities
+  Assess and improve on collaboration: improve, 2025-01-01, 5y
+  Develop and add to project website: imp_proj_web, after agree, 2030-01-01
+  Develop and add to research ops website: imp_reops_web, after consensus, 2030-01-01
+  Maintenance of Seedcase-managed data infrastructure: imp_seedcase, after seedcase, 2030-01-01
+
+  section Setup
+  Establish working groups: wg, 2025-01-01, 2M
+  Discuss and agree on ways to collaborate: agree, after wg, 6M
+  Identify barriers and challenges to collaboration: barriers, after wg, 6M
+
+  Setup DP-Next project website with current details: milestone, web_proj, after barriers, 1M
+  Consensus document on project's agreed processes and workflows: milestone, consensus, after web_proj, 1M
+  Setup research ops practices pages on website: milestone, web_reops, after website, 1M
+  Open-source Data Management Plan template, for WP3: milestone, template_dmp, 2027-01-01, 1M 
+  Use NNF-funded data infrastructure software for WP3: milestone, seedcase, 2027-01-01, 1M
+
+  section Deliverables
+  "Research ops practices used in a large, national project": milestone, doc_reops, 2029-12-01, 1M
+  "An open-access, FAIR Data Resource for the DP-Next project": milestone, doc_data_res, 2029-12-01, 1M 
+
+
+
+
