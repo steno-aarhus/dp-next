@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.552">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,6 +71,9 @@ ul.task-list li input[type="checkbox"] {
 background-size: cover;
       }
 </style>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -142,7 +145,14 @@ background-size: cover;
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overall" id="toc-overall" class="nav-link active" data-scroll-target="#overall">Overall</a></li>
+  <li><a href="#wp-specific" id="toc-wp-specific" class="nav-link" data-scroll-target="#wp-specific">WP specific</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/steno-aarhus/dp-next/edit/main/wp1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/steno-aarhus/dp-next/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/steno-aarhus/dp-next/blob/main/wp1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -151,8 +161,131 @@ background-size: cover;
 
 
 
+<section id="overall" class="level2">
+<h2 class="anchored" data-anchor-id="overall">Overall</h2>
+<div class="cell" data-file="images/gantt.mmd" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-gantt" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-gantt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-gantt">---
+config:
+    theme: "neutral"
+    themeCSS: "svg {width: 700px}"
+    gantt:
+        barHeight: 30
+        leftPadding: 175
+        fontSize: 20
+        sectionFontSize: 20
+        barGap: 10
+---
+
+gantt
+    title Estimated timeline for DP-Next project
+    dateFormat  YYYY-MM-DD
+    axisFormat %Y
+    tickInterval 1year
+    todayMarker off
+    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+    section WP1&lt;br&gt;Management&lt;br&gt;and Collaboration
+    Task 1.1 General project management: t1_1, 2025-01-01, 5y
+    Task 1.2 Optimising collaboration: t1_2, 2025-01-01, 5y
+
+    section WP2&lt;br&gt;Risk Prediction
+    Task 2.1 Separate risk prediction model development : t2_1, 2025-01-01, 18M
+    Task 2.2 Machine Learning approaches for risk prediction : t2_2, 2026-01-01, 18M
+    Task 2.3 Joint risk prediction model development : t2_3, 2026-07-01, 18M
+
+    section WP3&lt;br&gt;Heterogeneity
+    Task 3.1 Advanced clustering models : t3_1, 2027-07-01, 18M
+    Task 3.2 Deep phenotyping substudy : t3_2, 2025-07-01, 54M
+
+    section WP4&lt;br&gt;Development&lt;br&gt;and intervention
+    Task 4.1 Investigate barriers and facilitators : t4_1, 2025-01-01, 18M
+    Task 4.2 Develop and co-design intervention activities : t4_2, after t4_1, 18M
+
+    section WP5&lt;br&gt;Evaluation&lt;br&gt;of intervention
+    Task 5.1 Validation of risk prediction models : t5_1, 2028-01-01, 18M
+    Task 5.2 Pilot testing of intervention components in specific populations : t5_2, 2028-01-01, 1y
+    Task 5.3 Evaluation of intervention : t5_3, 2028-07-01, 18M
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gantt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: General Gantt chart for all of DP-Next.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="wp-specific" class="level2">
+<h2 class="anchored" data-anchor-id="wp-specific">WP specific</h2>
+<div class="cell" data-file="images/gantt-wp1.mmd" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-gantt-wp1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-gantt-wp1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-gantt-wp1">---
+config:
+    theme: "neutral"
+    themeCSS: "svg {width: 700px}"
+    gantt:
+        barHeight: 50
+        leftPadding: 175
+        fontSize: 20
+        sectionFontSize: 20
+        barGap: 10
+---
+
+gantt
+  title Tasks, Milestones, and Deliverables for WP1
+  dateFormat  YYYY-MM-DD
+  axisFormat %Y
+  tickInterval 1year
+  todayMarker off
+  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+  section Ongoing&lt;br&gt;activities
+  Assess and improve on collaboration: improve, 2025-01-01, 5y
+  Develop and add to project website: imp_proj_web, after agree, 2030-01-01
+  Develop and add to research ops website: imp_reops_web, after consensus, 2030-01-01
+  Maintenance of Seedcase-managed data infrastructure: imp_seedcase, after seedcase, 2030-01-01
+
+  section Setup
+  Establish working groups: wg, 2025-01-01, 2M
+  Discuss and agree on ways to collaborate: agree, after wg, 6M
+  Identify barriers and challenges to collaboration: barriers, after wg, 6M
+
+  Setup DP-Next project website with current details: milestone, web_proj, after barriers, 1M
+  Consensus document on project's agreed processes and workflows: milestone, consensus, after web_proj, 1M
+  Setup research ops practices pages on website: milestone, web_reops, after website, 1M
+  Open-source Data Management Plan template, for WP3: milestone, template_dmp, 2027-01-01, 1M 
+  Use NNF-funded data infrastructure software for WP3: milestone, seedcase, 2027-01-01, 1M
+
+  section Deliverables
+  "Research ops practices used in a large, national project": milestone, doc_reops, 2029-12-01, 1M
+  "An open-access, FAIR Data Resource for the DP-Next project": milestone, doc_data_res, 2029-12-01, 1M 
 
 
+
+
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gantt-wp1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Gantt chart for Work Package 1
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -588,7 +721,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/steno-aarhus/dp-next/edit/main/wp1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/steno-aarhus/dp-next/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/steno-aarhus/dp-next/blob/main/wp1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/steno-aarhus/dp-next/edit/main/wp1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/steno-aarhus/dp-next/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/steno-aarhus/dp-next/blob/main/wp1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
