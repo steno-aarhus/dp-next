@@ -1,0 +1,41 @@
+@startuml
+
+state "Central knowledge repository" as ckr
+state "Study docs" as sd
+sd : - Study protocol
+sd : - Data management plan
+sd : - Analysis plan
+
+state "Operations docs" as od
+od : - Documented decisions
+od : - Operating procedures
+od : - Collaboration agreements
+
+state "Project management" as pm
+pm : - Central task tracking board\n  (Kanban-style boards)
+pm : - Iterative and incremental\n  methods (software agile-inspired)
+pm : - Central communication channel\n  (Slack/Teams/Discord)
+
+
+state "Education and upskilling" as edu
+
+state "Data engineering" as de
+de : - Automated data operations\n  pipeline (from raw to analyzable)
+de : - Rapid, automated internal\n  dissemination of research outputs
+
+state "Data collection,\ngeneration" as dc
+dc : From WP3
+
+state "Collaborations" as collab
+collab : - NNF-funded Seedcase Project\n  (software and training)
+collab : - SDCA training expertise\n  (e.g. DDEA R courses instructors)
+
+dc --> de
+sd --> ckr
+od -> ckr
+
+collab -> pm
+collab --> ckr
+collab -> od
+
+@enduml
