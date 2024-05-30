@@ -24,4 +24,27 @@ in less time" [@Lowndes2017].
 
 -   **Characters**: 0 / 1800 characters
 
+::: {.column-page}
+::: {#fig-app-round2 layout-ncol=2}
+```{mermaid}
+%%| file: images/gantt.mmd
+%%| fig-width: 7
+%%| label: fig-gantt
+%%| fig-cap: "General Gantt chart for all of DP-Next."
+```
+
+```{mermaid}
+%%| file: images/gantt-wp1.mmd
+%%| label: fig-gantt-wp1 
+%%| fig-cap: "Gantt chart for Work Package 1"
+```
+
+![Groups and people working on DP-Next.](images/organization.svg){#fig-organization}
+
+![Actions and task for WP1.](images/actions.svg){#fig-actions}
+
+Project planning, organization, and operational actions faciliated by WP1.
+:::
+:::
+
 ## References
