@@ -5,7 +5,16 @@ title: "Overview"
 DP-Next is a project in development aimed at developing a sustainably effective strategy for prevention of Type 2 Diabetes in Denmark, Greenland and the Faroe Islands. The project is currently in development and seeking funding. The full name of the project is: Sustainable Type 2 Diabetes Prevention for the 21st Century. We call it DP-Next because we intend to develop the next generation of Diabetes Prevention strategies.
 
 ## Why is a new strategy for diabetes prevention necessary?
-We have known for over two  decades that it is possible *italics*-in principle- to prevent Type 2 Diabetes in people at very high risk by encouraging them to participate in a very intensive lifestyle modification programme. This was demonstrated around the turn of the century in the Diabetes Prevention Program (DPP - USA), the Diabetes Prevention Study (DPS - Finland) and the Da Qing Study (China).
+We have known for over two  decades that it is possible *italics*-in principle- to prevent Type 2 Diabetes in people at very high risk by encouraging them to participate in a very intensive lifestyle modification programme. 
+
+<details>
+<summary>The original Diabetes Prevention Studies were conducted around the turn of the century.</summary>
+<ul>
+<li> The <a href="https://doi.org/10.1056/nejmoa012512">Diabetes Prevention Program</a> (USA) </li>
+<li> The <a href="https://doi.org/10.1056/nejm200105033441801">Diabetes Prevention Study</a> (Finland) </li>
+<li> The <a href="https://doi.org/10.2337/diacare.20.4.537">Da Qing Study</a> (China) </li>
+</ul>
+</details>
 
 Unfortunately, subsequent efforts to translate the benefits from these efficacy trials into sustainable day to day practice have largely failed. The first main issue is that the resources and intensity of the trial interventions are not practically achievable at large scale. Studies that have applied less intensive lifestyle interventions have generally shown only temporary impacts on weight, but no long-term impact on diabetes incidence. The second main issue is that the particular subgroup of pre-diabetes recruited into the trials (IGT) is the group at highest diabetes risk, but is rarely identified in daily practice especially since HbA1c has replaced the oral glucose tolerance test (OGTT) as the main diagnostic tool in Europe and the US since 2014. 
 
