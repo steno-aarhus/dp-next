@@ -20,11 +20,14 @@ We have known for over two  decades that it is possible *italics*-in principle- 
 Unfortunately, subsequent efforts to translate the benefits from these efficacy trials into sustainable day to day practice have largely failed. The first main issue is that the resources and intensity of the trial interventions are not practically achievable at large scale. Studies that have applied less intensive lifestyle interventions have generally shown only temporary impacts on weight, but no long-term impact on diabetes incidence. The second main issue is that the particular subgroup of pre-diabetes recruited into the trials (IGT) is the group at highest diabetes risk, but is rarely identified in daily practice especially since HbA1c has replaced the oral glucose tolerance test (OGTT) as the main diagnostic tool in Europe and the US since 2014. 
 
 In other words:
+
 * The population with high diabetes risk today is much more heterogeneous compared to the participants in the original prevention trials
 * The intensity of intervention applied in the efficacy trials is not pragmatically or sustainably achievable. 
 
 ### What has changed since? 
+
 The past decades have brought a lot of new opportunities for diabetes prevention, which are currently often underutilised:
+
 * Extensive, linkable health registers with population-wide coverage
 * Advanced statistical and machine learning methods
 * Deeper insight into psychosocial barriers for sustainable health behaviour change
