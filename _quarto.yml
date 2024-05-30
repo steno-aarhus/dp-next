@@ -13,6 +13,7 @@ website:
       - text: WP1
         menu:
           - wp1/index.qmd
+          - wp1/introduction.qmd
           - wp1/planning.qmd
           - wp1/application.qmd
       - wp2.qmd 
@@ -30,6 +31,7 @@ website:
         collapse-level: 2
         contents:
           - wp1/index.qmd
+          - wp1/introduction.qmd
           - wp1/planning.qmd
           - wp1/application.qmd
 
