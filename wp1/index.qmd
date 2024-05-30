@@ -1,0 +1,42 @@
+---
+title: "Summary"
+---
+
+Science is increasingly moving into more team-based, multi-centered
+enterprises, as well as having a greater requirement for openness and
+reproducibility. These require using modern practices designed for these
+conditions, rarely seen in academia but common within many industry
+settings. Our aim with WP1 is to deliver “better, open, and reproducible
+research done in less time” by employing these practices, as well as
+providing upskilling opportunities to researchers for skills and
+knowledge in these practices.
+
+Our basic strategies will be to establish working groups, including a
+group dedicated to “research operations” to fulfil this core aim, as
+well as developing and implementing common practices and tools that
+maximise collaboration and that follow some guiding principles. All
+groups will include a “tech lead” who has technical knowledge and skills
+and who will also be part of the research operations group, to help
+coordinate WP groups with these practices. We aim to onboard and train
+the tech leads in these practices by embedding them in some work done at
+SDCA, where these practices have been developing and refining over the
+last several years. The most relevant practices and skills that this WP1
+aims to provide are in software and data engineering, iterative project
+management, collaborative workflows and tools,
+
+Pertinent to these practices is understanding and assessing risk and
+challenges. The two biggest challenges we face with this WP1 are:
+
+1.  The need for highly technical personnel who have sufficient
+    fundamental expertise to understand and apply these practices, which
+    we hope to minimise through the training and onboarding of the tech
+    leads.
+2.  the IT systems across centers that often don’t work well together,
+    which we hope to reduce the impact of by having a dedicated research
+    operations group.
+
+While this WP1 forms the foundation to all other WPs and in many ways
+aims to support their success, the activities of WP1 are an increasingly
+needed aspect of research globally. In this regard, we aim to produce
+tangible and usable deliverables that are independent and valuable on
+their own.
