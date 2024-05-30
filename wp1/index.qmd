@@ -1,5 +1,6 @@
 ---
 title: "Summary"
+description: "Overall summary of WP1"
 ---
 
 Science is increasingly moving into more team-based, multi-centered

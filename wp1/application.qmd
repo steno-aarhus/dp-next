@@ -1,5 +1,5 @@
 ---
-title: "Application content"
+title: "Applications"
 description: Content used for the first and second rounds of applications.
 ---
 
