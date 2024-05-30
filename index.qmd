@@ -1,5 +1,6 @@
 ---
 title: "Overview"
+---
 
 ## What is DP-Next?
 DP-Next is a project in development aimed at developing a sustainably effective strategy for prevention of Type 2 Diabetes in Denmark, Greenland and the Faroe Islands. The project is currently in development and seeking funding. The full name of the project is: Sustainable Type 2 Diabetes Prevention for the 21st Century. We call it DP-Next because we intend to develop the next generation of Diabetes Prevention strategies.
@@ -31,6 +32,3 @@ The past decades have brought a lot of new opportunities for diabetes prevention
 * Expanding evidence for substantial heterogeneity in (pre)diabetes and diabetes risk
 * Advanced technology for real time measurements (CGM, sleep, physical activity)
 * Widespread adoption of communication via smartphones and use of apps
-
-
----
