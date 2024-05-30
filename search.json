@@ -1,24 +1,103 @@
 [
   {
-    "objectID": "wp1.html",
-    "href": "wp1.html",
-    "title": "Work Package 1",
+    "objectID": "wp1/application.html",
+    "href": "wp1/application.html",
+    "title": "Applications",
     "section": "",
-    "text": "---\nconfig:\n    theme: \"neutral\"\n    themeCSS: \"svg {width: 700px}\"\n    gantt:\n        barHeight: 30\n        leftPadding: 175\n        fontSize: 20\n        sectionFontSize: 20\n        barGap: 10\n---\n\ngantt\n    title Estimated timeline for DP-Next project\n    dateFormat  YYYY-MM-DD\n    axisFormat %Y\n    tickInterval 1year\n    todayMarker off\n    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n    section WP1&lt;br&gt;Management&lt;br&gt;and Collaboration\n    Task 1.1 General project management: t1_1, 2025-01-01, 5y\n    Task 1.2 Optimising collaboration: t1_2, 2025-01-01, 5y\n\n    section WP2&lt;br&gt;Risk Prediction\n    Task 2.1 Separate risk prediction model development : t2_1, 2025-01-01, 18M\n    Task 2.2 Machine Learning approaches for risk prediction : t2_2, 2026-01-01, 18M\n    Task 2.3 Joint risk prediction model development : t2_3, 2026-07-01, 18M\n\n    section WP3&lt;br&gt;Heterogeneity\n    Task 3.1 Advanced clustering models : t3_1, 2027-07-01, 18M\n    Task 3.2 Deep phenotyping substudy : t3_2, 2025-07-01, 54M\n\n    section WP4&lt;br&gt;Development&lt;br&gt;and intervention\n    Task 4.1 Investigate barriers and facilitators : t4_1, 2025-01-01, 18M\n    Task 4.2 Develop and co-design intervention activities : t4_2, after t4_1, 18M\n\n    section WP5&lt;br&gt;Evaluation&lt;br&gt;of intervention\n    Task 5.1 Validation of risk prediction models : t5_1, 2028-01-01, 18M\n    Task 5.2 Pilot testing of intervention components in specific populations : t5_2, 2028-01-01, 1y\n    Task 5.3 Evaluation of intervention : t5_3, 2028-07-01, 18M\n\n\n\n\nFigure 1: General Gantt chart for all of DP-Next."
+    "text": "Characters: 644\n\nWP1 answers the increasing need for openness, transparency, and reproducibility in research, will deliver the day-to-day project and operations management of all the WPs and will facilitate close collaboration and joint expertise development across all Steno Centres.\nEffective coordination and management of complex projects such as DP-Next requires modern and innovative approaches to project and operational management. We will employ tools developed and tested at SDCA in the past years (1–5) to offer a practical framework for sharing knowledge and technical skills across centres, aiming to deliver “better research done in less time” (6).",
+    "crumbs": [
+      "Applications"
+    ]
   },
   {
-    "objectID": "wp1.html#overall",
-    "href": "wp1.html#overall",
-    "title": "Work Package 1",
+    "objectID": "wp1/application.html#first-round",
+    "href": "wp1/application.html#first-round",
+    "title": "Applications",
     "section": "",
-    "text": "---\nconfig:\n    theme: \"neutral\"\n    themeCSS: \"svg {width: 700px}\"\n    gantt:\n        barHeight: 30\n        leftPadding: 175\n        fontSize: 20\n        sectionFontSize: 20\n        barGap: 10\n---\n\ngantt\n    title Estimated timeline for DP-Next project\n    dateFormat  YYYY-MM-DD\n    axisFormat %Y\n    tickInterval 1year\n    todayMarker off\n    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n    section WP1&lt;br&gt;Management&lt;br&gt;and Collaboration\n    Task 1.1 General project management: t1_1, 2025-01-01, 5y\n    Task 1.2 Optimising collaboration: t1_2, 2025-01-01, 5y\n\n    section WP2&lt;br&gt;Risk Prediction\n    Task 2.1 Separate risk prediction model development : t2_1, 2025-01-01, 18M\n    Task 2.2 Machine Learning approaches for risk prediction : t2_2, 2026-01-01, 18M\n    Task 2.3 Joint risk prediction model development : t2_3, 2026-07-01, 18M\n\n    section WP3&lt;br&gt;Heterogeneity\n    Task 3.1 Advanced clustering models : t3_1, 2027-07-01, 18M\n    Task 3.2 Deep phenotyping substudy : t3_2, 2025-07-01, 54M\n\n    section WP4&lt;br&gt;Development&lt;br&gt;and intervention\n    Task 4.1 Investigate barriers and facilitators : t4_1, 2025-01-01, 18M\n    Task 4.2 Develop and co-design intervention activities : t4_2, after t4_1, 18M\n\n    section WP5&lt;br&gt;Evaluation&lt;br&gt;of intervention\n    Task 5.1 Validation of risk prediction models : t5_1, 2028-01-01, 18M\n    Task 5.2 Pilot testing of intervention components in specific populations : t5_2, 2028-01-01, 1y\n    Task 5.3 Evaluation of intervention : t5_3, 2028-07-01, 18M\n\n\n\n\nFigure 1: General Gantt chart for all of DP-Next."
+    "text": "Characters: 644\n\nWP1 answers the increasing need for openness, transparency, and reproducibility in research, will deliver the day-to-day project and operations management of all the WPs and will facilitate close collaboration and joint expertise development across all Steno Centres.\nEffective coordination and management of complex projects such as DP-Next requires modern and innovative approaches to project and operational management. We will employ tools developed and tested at SDCA in the past years (1–5) to offer a practical framework for sharing knowledge and technical skills across centres, aiming to deliver “better research done in less time” (6).",
+    "crumbs": [
+      "Applications"
+    ]
   },
   {
-    "objectID": "wp1.html#wp-specific",
-    "href": "wp1.html#wp-specific",
-    "title": "Work Package 1",
-    "section": "WP specific",
-    "text": "WP specific\n\n\n\n\n\n\n---\nconfig:\n    theme: \"neutral\"\n    themeCSS: \"svg {width: 700px}\"\n    gantt:\n        barHeight: 50\n        leftPadding: 175\n        fontSize: 20\n        sectionFontSize: 20\n        barGap: 10\n---\n\ngantt\n  title Tasks, Milestones, and Deliverables for WP1\n  dateFormat  YYYY-MM-DD\n  axisFormat %Y\n  tickInterval 1year\n  todayMarker off\n  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n  section Ongoing&lt;br&gt;activities\n  Assess and improve on collaboration: improve, 2025-01-01, 5y\n  Develop and add to project website: imp_proj_web, after agree, 2030-01-01\n  Develop and add to research ops website: imp_reops_web, after consensus, 2030-01-01\n  Maintenance of Seedcase-managed data infrastructure: imp_seedcase, after seedcase, 2030-01-01\n\n  section Setup\n  Establish working groups: wg, 2025-01-01, 2M\n  Discuss and agree on ways to collaborate: agree, after wg, 6M\n  Identify barriers and challenges to collaboration: barriers, after wg, 6M\n\n  Setup DP-Next project website with current details: milestone, web_proj, after barriers, 1M\n  Consensus document on project's agreed processes and workflows: milestone, consensus, after web_proj, 1M\n  Setup research ops practices pages on website: milestone, web_reops, after website, 1M\n  Open-source Data Management Plan template, for WP3: milestone, template_dmp, 2027-01-01, 1M \n  Use NNF-funded data infrastructure software for WP3: milestone, seedcase, 2027-01-01, 1M\n\n  section Deliverables\n  \"Research ops practices used in a large, national project\": milestone, doc_reops, 2029-12-01, 1M\n  \"An open-access, FAIR Data Resource for the DP-Next project\": milestone, doc_data_res, 2029-12-01, 1M \n\n\n\n\n\n\n\n\nFigure 2: Gantt chart for Work Package 1"
+    "objectID": "wp1/application.html#second-round",
+    "href": "wp1/application.html#second-round",
+    "title": "Applications",
+    "section": "Second round",
+    "text": "Second round\n\nCharacters: 0 / 1800 characters\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstimated timeline for DP-Next project\n\n\n202520262027202820292030Task 1.1 General project managementTask 1.2 Optimising collaborationTask 2.1 Separate risk prediction model development Task 4.1 Investigate barriers and facilitators Task 3.2 Deep phenotyping substudy Task 2.2 Machine Learning approaches for risk prediction Task 2.3 Joint risk prediction model development Task 4.2 Develop and co-design intervention activities Task 3.1 Advanced clustering models Task 5.1 Validation of risk prediction models Task 5.2 Pilot testing of intervention components in specific populations Task 5.3 Evaluation of intervention WP1Managementand CollaborationWP2Risk PredictionWP3HeterogeneityWP4Developmentand interventionWP5Evaluationof interventionEstimated timeline for DP-Next project\n\n\n\n\n(a) General Gantt chart for all of DP-Next.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTasks, Milestones, and Deliverables for WP1\n\n\n202520262027202820292030Setup research ops practices pages on websiteAssess and improve on collaborationEstablish working groupsDiscuss and agree on ways to collaborateIdentify barriers and challenges to collaborationDevelop and add to project websiteSetup DP-Next project website with current detailsConsensus document on project’s agreed processes and workflowsDocument workflow for collaboration on WP2Document data engineering pipeline for WP3Develop and add to research ops websiteOpen-source Data Management Plan template, for WP3Use NNF-funded data infrastructure software for WP3Maintenance of Seedcase-managed data infrastructureOngoingactivitiesSetupTasks, Milestones, and Deliverables for WP1\n\n\n\n\n(b) Gantt chart for Work Package 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(c) Groups and people working on DP-Next.\n\n\n\n\n\n\n\n\n\n\n\n(d) Actions and task for WP1.\n\n\n\n\n\n\n\nFigure 1: Project planning, organization, and operational actions faciliated by WP1.",
+    "crumbs": [
+      "Applications"
+    ]
+  },
+  {
+    "objectID": "wp1/index.html",
+    "href": "wp1/index.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Science is increasingly moving into more team-based, multi-centered enterprises, as well as having a greater requirement for openness and reproducibility. These require using modern practices designed for these conditions, rarely seen in academia but common within many industry settings. Our aim with WP1 is to deliver “better, open, and reproducible research done in less time” by employing these practices, as well as providing upskilling opportunities to researchers for skills and knowledge in these practices.\nOur basic strategies will be to establish working groups, including a group dedicated to “research operations” to fulfil this core aim, as well as developing and implementing common practices and tools that maximise collaboration and that follow some guiding principles. All groups will include a “tech lead” who has technical knowledge and skills and who will also be part of the research operations group, to help coordinate WP groups with these practices. We aim to onboard and train the tech leads in these practices by embedding them in some work done at SDCA, where these practices have been developing and refining over the last several years. The most relevant practices and skills that this WP1 aims to provide are in software and data engineering, iterative project management, collaborative workflows and tools,\nPertinent to these practices is understanding and assessing risk and challenges. The two biggest challenges we face with this WP1 are:\n\nThe need for highly technical personnel who have sufficient fundamental expertise to understand and apply these practices, which we hope to minimise through the training and onboarding of the tech leads.\nthe IT systems across centers that often don’t work well together, which we hope to reduce the impact of by having a dedicated research operations group.\n\nWhile this WP1 forms the foundation to all other WPs and in many ways aims to support their success, the activities of WP1 are an increasingly needed aspect of research globally. In this regard, we aim to produce tangible and usable deliverables that are independent and valuable on their own.",
+    "crumbs": [
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "wp1/strategy.html",
+    "href": "wp1/strategy.html",
+    "title": "Strategy",
+    "section": "",
+    "text": "Traditional management of larger scale research projects often involves setting up steering committees who check on progress through status updates and discuss solutions to issues that arise. However, there are many modern tools and methods used within industry that research environments and projects could benefit from, such as data engineering, software development, and operations management. Thus, our general strategy incorporates not only the standard project management activities as well as modern approaches to coordinating tasks and outputs between groups. The general strategies we’ll take are to:\nEstablish an overall management group and a research operations group of relevant persons from each center to track progress, coordinate tasks, and manage the project Develop and agree on some guiding principles for collaboration and work to follow across centers and WPs that adhere to open science practices Investigate and identify resources, limitations, and barriers on cross-Steno collaboration practices and processes Develop and agree on a set of common tools and standards to use across centers for WP to have smoother collaboration and sharing of outputs, that also consider the barriers and resources as well as the guiding principles",
+    "crumbs": [
+      "Strategy"
+    ]
+  },
+  {
+    "objectID": "wp1/strategy.html#guiding-principles",
+    "href": "wp1/strategy.html#guiding-principles",
+    "title": "Strategy",
+    "section": "Guiding principles",
+    "text": "Guiding principles\nOne of the initial steps in the strategy involves developing and implementing general principles that will guide collaboration and work across the Steno Centers. This ensures we have a basis for following a common approach to working and communicating together when managing the WPs. While we will finalise and refine the principles during the first year of the project, below are some principles that will form the basis for all other principles.\n\nAssume openness with as many things as possible, including communication\nImplement openness as much as possible, excluding personal and sensitive data\nDisseminate as many steps of the research lifecycle as possible, including non-traditional outputs (e.g. protocols or standard operating procedures)\nImplement as much as possible explicit analyses and data processing/management using code-based and programmatic pipeline/workflow management",
+    "crumbs": [
+      "Strategy"
+    ]
+  },
+  {
+    "objectID": "wp1/strategy.html#actions",
+    "href": "wp1/strategy.html#actions",
+    "title": "Strategy",
+    "section": "Actions",
+    "text": "Actions\n\n\n\nActions and task for WP1.",
+    "crumbs": [
+      "Strategy"
+    ]
+  },
+  {
+    "objectID": "wp1/strategy.html#potential-tools-and-methods-to-use",
+    "href": "wp1/strategy.html#potential-tools-and-methods-to-use",
+    "title": "Strategy",
+    "section": "Potential tools and methods to use",
+    "text": "Potential tools and methods to use\nThe exact tools and methods that will be used will first need to be decided upon by everyone. However, some of the tools and methods that we are considering that follow the principles include:\n\nR for programming, data processing, and analysis\nGitHub to use as the knowledge repository\nQuarto (next generation of R Markdown) for writing and sharing documents, as well as creating websites\nSlack/Teams/Discord for central communication\nGitHub Projects for project management\nAgile (e.g. Scrum and Kanban) inspired iterative and incremental methods for project management\nSeedcase software for data management and sharing",
+    "crumbs": [
+      "Strategy"
+    ]
+  },
+  {
+    "objectID": "wp1/strategy.html#considerations",
+    "href": "wp1/strategy.html#considerations",
+    "title": "Strategy",
+    "section": "Considerations",
+    "text": "Considerations\n\nChallenges\nAside from the standard project management tasks, implementing modern research ops and collaborative practices that support conducting open and reproducible science across all Steno Centers will be a challenge. Given that personnel in research environments with the necessary technical knowledge and skills are few and often move out of academia into industry positions, a substantial amount of time and effort will be spent in training and upskilling existing personnel. The reason we’ve structured the groups to include at least one “tech lead” who is also part of the research ops group is to help minimise this challenge. We aim to provide training to this tech lead by embedding them in some of the work we are doing at Steno Aarhus, where we have been implementing many of these practices.\nAnother major challenge will be coordinating tasks and work between IT systems that often don’t work well together or are suboptimally designed for cross-institution collaboration. This is one reason we’ve decided to establish a research ops group, so that we can minimise the impact these issues have on completing the project deliverables.",
+    "crumbs": [
+      "Strategy"
+    ]
+  },
+  {
+    "objectID": "wp1/strategy.html#people-and-groups",
+    "href": "wp1/strategy.html#people-and-groups",
+    "title": "Strategy",
+    "section": "People and groups",
+    "text": "People and groups\n\n\n\nGroups and people working on DP-Next.\n\n\n\nManagement group\nThe project will be led by the PI, with support from the co-applicants / Work Package leaders, who together form the management group. Aside from individual groups for each WP, there will also be a group dedicated to overseeing the research operations. This group will, at a minimum, be composed of at least one person from each WP (and preferably in each center) who acts as a “tech lead” for that WP group. The tech lead should be someone with above average literacy in programming/computing/IT.\n\n\nResearch operations\nThe aim of research operations is to optimise day-to-day work in order to minimise time and effort spent per unit of output. The research ops group will act as a unit that works to reduce tech barriers, develop software and data engineering processes and tools, and advise on how to best design the outputs of WPs that are the inputs of other WPs. Some of the initial tasks revolve around establishing: a communications channel for everyone (as well as sub-channels for individual WPs and groups) that make it easy to keep everyone updated and to view all communications done (not emails); a project management platform visible and usable by everyone; an effective project management approach that groups can use to track tasks and deliverables (e.g. a suitable approach might be using Kanban principles); and a document sharing platform, ensuring that all of these also follow the guiding principles. Later tasks include developing the deliverables of the WPs in a way that makes sharing and interoperability easier, both internal to the project groups and WPs as well as to external stakeholders.",
+    "crumbs": [
+      "Strategy"
+    ]
   },
   {
     "objectID": "index.html",
@@ -40,5 +119,85 @@
     "title": "Overview",
     "section": "Why is a new strategy for diabetes prevention necessary?",
     "text": "Why is a new strategy for diabetes prevention necessary?\nWe have known for over two decades that it is possible italics-in principle- to prevent Type 2 Diabetes in people at very high risk by encouraging them to participate in a very intensive lifestyle modification programme.\n\n\nThe original Diabetes Prevention Studies were conducted around the turn of the century.\n\n\n\nThe Diabetes Prevention Program (USA)\n\n\nThe Diabetes Prevention Study (Finland)\n\n\nThe Da Qing Study (China)\n\n\n\nUnfortunately, subsequent efforts to translate the benefits from these efficacy trials into sustainable day to day practice have largely failed. The first main issue is that the resources and intensity of the trial interventions are not practically achievable at large scale. Studies that have applied less intensive lifestyle interventions have generally shown only temporary impacts on weight, but no long-term impact on diabetes incidence. The second main issue is that the particular subgroup of pre-diabetes recruited into the trials (IGT) is the group at highest diabetes risk, but is rarely identified in daily practice especially since HbA1c has replaced the oral glucose tolerance test (OGTT) as the main diagnostic tool in Europe and the US since 2014.\nIn other words:\n\nThe population with high diabetes risk today is much more heterogeneous compared to the participants in the original prevention trials\nThe intensity of intervention applied in the efficacy trials is not pragmatically or sustainably achievable.\n\n\nWhat has changed since?\nThe past decades have brought a lot of new opportunities for diabetes prevention, which are currently often underutilised:\n\nExtensive, linkable health registers with population-wide coverage\nAdvanced statistical and machine learning methods\nDeeper insight into psychosocial barriers for sustainable health behaviour change\nStronger experience with methods for development of complex interventions\nExpanding evidence for substantial heterogeneity in (pre)diabetes and diabetes risk\nAdvanced technology for real time measurements (CGM, sleep, physical activity)\nWidespread adoption of communication via smartphones and use of apps"
+  },
+  {
+    "objectID": "wp1/planning.html",
+    "href": "wp1/planning.html",
+    "title": "Planning",
+    "section": "",
+    "text": "Estimated timeline for DP-Next project\n\n\n202520262027202820292030Task 1.1 General project managementTask 1.2 Optimising collaborationTask 2.1 Separate risk prediction model development Task 4.1 Investigate barriers and facilitators Task 3.2 Deep phenotyping substudy Task 2.2 Machine Learning approaches for risk prediction Task 2.3 Joint risk prediction model development Task 4.2 Develop and co-design intervention activities Task 3.1 Advanced clustering models Task 5.1 Validation of risk prediction models Task 5.2 Pilot testing of intervention components in specific populations Task 5.3 Evaluation of intervention WP1Managementand CollaborationWP2Risk PredictionWP3HeterogeneityWP4Developmentand interventionWP5Evaluationof interventionEstimated timeline for DP-Next project\n\n\n\n\nFigure 1: General Gantt chart for all of DP-Next.",
+    "crumbs": [
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "wp1/planning.html#dp-next-plan",
+    "href": "wp1/planning.html#dp-next-plan",
+    "title": "Planning",
+    "section": "",
+    "text": "Estimated timeline for DP-Next project\n\n\n202520262027202820292030Task 1.1 General project managementTask 1.2 Optimising collaborationTask 2.1 Separate risk prediction model development Task 4.1 Investigate barriers and facilitators Task 3.2 Deep phenotyping substudy Task 2.2 Machine Learning approaches for risk prediction Task 2.3 Joint risk prediction model development Task 4.2 Develop and co-design intervention activities Task 3.1 Advanced clustering models Task 5.1 Validation of risk prediction models Task 5.2 Pilot testing of intervention components in specific populations Task 5.3 Evaluation of intervention WP1Managementand CollaborationWP2Risk PredictionWP3HeterogeneityWP4Developmentand interventionWP5Evaluationof interventionEstimated timeline for DP-Next project\n\n\n\n\nFigure 1: General Gantt chart for all of DP-Next.",
+    "crumbs": [
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "wp1/planning.html#wp1-specific-plan",
+    "href": "wp1/planning.html#wp1-specific-plan",
+    "title": "Planning",
+    "section": "WP1-specific plan",
+    "text": "WP1-specific plan\n\n\n\n\n\n\n\n\nTasks, Milestones, and Deliverables for WP1\n\n\n202520262027202820292030Setup research ops practices pages on websiteAssess and improve on collaborationEstablish working groupsDiscuss and agree on ways to collaborateIdentify barriers and challenges to collaborationDevelop and add to project websiteSetup DP-Next project website with current detailsConsensus document on project’s agreed processes and workflowsDocument workflow for collaboration on WP2Document data engineering pipeline for WP3Develop and add to research ops websiteOpen-source Data Management Plan template, for WP3Use NNF-funded data infrastructure software for WP3Maintenance of Seedcase-managed data infrastructureOngoingactivitiesSetupTasks, Milestones, and Deliverables for WP1\n\n\n\n\nFigure 2: Gantt chart for Work Package 1",
+    "crumbs": [
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "wp1/planning.html#milestones",
+    "href": "wp1/planning.html#milestones",
+    "title": "Planning",
+    "section": "Milestones",
+    "text": "Milestones\n\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2",
+    "crumbs": [
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "wp1/planning.html#deliverables",
+    "href": "wp1/planning.html#deliverables",
+    "title": "Planning",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nReports:\n\nConsensus document on agreed upon processes and workflows between WPs\nResearch operational management practices and processes employed in a large-scale multi-centered project: Future uses of using modern approaches to team-based research\nDP-Next as an open-access and secure Data Resource for broader re-use of collected data for researchers (using SDCA-developed, NNF-funded Seedcase software)\nChallenges and lessons learned in applying modern research ops and data engineering to a large-scale, multi-center project\n\nResources:\n\nEach center has resources and workflows for conducting reproducible and modern register-based research using the Danish registers\nDP-Next data resource\nDP-Next project website, with all (internal and external) knowledge generated, including all code and documentation",
+    "crumbs": [
+      "Planning"
+    ]
+  },
+  {
+    "objectID": "wp1/introduction.html",
+    "href": "wp1/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "We’ve structured and organised Work Package 1 (WP1) based on the increasing need for openness, transparency, and reproducibility in research. WP1 will deliver the day-to-day project and operations management of all the WPs, as well as facilitating the close collaboration and joint development of expertise across all seven Steno Centers. To achieve effective and optimal coordination and management of a complex project like this, we will apply modern and innovative methods in project and operational management practices, as well as applying a software and data engineering structure and perspective both operational aspects as well as to scientific outputs. We will employ resources and tools developed and tested at SDCA in the past years (1–5) to offer a practical framework for sharing knowledge and technical skills across centres, aiming to deliver “better research done in less time” (6) while following reproducible and open scientific practices.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "wp1/introduction.html#visions",
+    "href": "wp1/introduction.html#visions",
+    "title": "Introduction",
+    "section": "Visions",
+    "text": "Visions\n\nDoing better research in less time\nTraining researchers in modern technical engineering and project management skills\nEstablish modern data engineering practices and research operational approaches as a standard of practice when conducting research",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "wp1/introduction.html#aims",
+    "href": "wp1/introduction.html#aims",
+    "title": "Introduction",
+    "section": "Aims",
+    "text": "Aims\n\nCreate management groups to manage and coordinate centers and WPs in completing their deliverables.\nDevelop and implement cross-Steno Research Operations and modern collaborative workflows and practices that support the successful completion of each work package as well as improving research practices across Steno centers.\nOptimise and reduce the time and effort spent between designing the work package studies and the final disseminating high-quality research results.\nBuild up inter- and intra-Steno knowledge and skill capacity (“upskill”) in non-traditional technical skills and knowledge such as software development, data engineering, operational management (including “DataOps”), and iterative project management practices.",
+    "crumbs": [
+      "Introduction"
+    ]
   }
 ]
