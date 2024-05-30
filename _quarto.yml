@@ -10,7 +10,10 @@ website:
     pinned: true
     left:
       - index.qmd 
-      - wp1.qmd 
+      - text: WP1
+        menu:
+          - wp1/index.qmd
+          - wp1/application.qmd
       - wp2.qmd 
       - wp3.qmd 
       - wp4.qmd 

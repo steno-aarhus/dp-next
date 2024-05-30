@@ -1,0 +1,27 @@
+---
+title: "Application content"
+description: Content used for the first and second rounds of applications.
+---
+
+## First round
+
+-   **Characters**: 644
+
+WP1 answers the increasing need for openness, transparency, and
+reproducibility in research, will deliver the day-to-day project and
+operations management of all the WPs and will facilitate close
+collaboration and joint expertise development across all Steno Centres.
+
+Effective coordination and management of complex projects such as
+DP-Next requires modern and innovative approaches to project and
+operational management. We will employ tools developed and tested at
+SDCA in the past years [@Johnston2022; @DARTER; @ukbaid; @seedcase;
+@sdca-github] to offer a practical framework for sharing knowledge and
+technical skills across centres, aiming to deliver "better research done
+in less time" [@Lowndes2017].
+
+## Second round
+
+-   **Characters**: 0 / 1800 characters
+
+## References
