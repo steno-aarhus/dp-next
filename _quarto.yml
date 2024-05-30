@@ -22,6 +22,15 @@ website:
         href: "https://github.com/steno-aarhus/"
       - icon: twitter
         href: "https://twitter.com/StenoAarhusRes"
+  sidebar:
+      - id: wp1
+        title: "WP1"
+        style: "floating"
+        collapse-level: 2
+        contents:
+          - wp1/index.qmd
+          - wp1/application.qmd
+
 
 format: sdca-theme-html
 bibliography: references.bib
