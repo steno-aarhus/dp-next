@@ -1,0 +1,51 @@
+---
+title: "Planning"
+description: Project planning, outputs, and Gantt charts for WP1.
+---
+
+## DP-Next plan
+
+```{mermaid}
+%%| file: images/gantt.mmd
+%%| label: fig-gantt
+%%| fig-cap: "General Gantt chart for all of DP-Next."
+```
+
+## WP1-specific plan
+
+```{mermaid}
+%%| file: images/gantt-wp1.mmd
+%%| label: fig-gantt-wp1 
+%%| fig-cap: "Gantt chart for Work Package 1"
+```
+
+## Milestones
+
+-   Setup research data infrastructure that supports adhering to open
+    FAIR practices for ease of internal and external sharing of data for
+    WP3 (using software built from NNF-funded project from SDCA called
+    Seedcase: https://seedcase-project.org/)
+
+-   Open-source templates for building software package/app for risk
+    prediction engine from WP2
+
+## Deliverables
+
+-   Reports:
+    -   *Consensus document on agreed upon processes and workflows
+        between WPs*
+    -   *Research operational management practices and processes
+        employed in a large-scale multi-centered project: Future uses of
+        using modern approaches to team-based research*
+    -   *DP-Next as an open-access and secure Data Resource for broader
+        re-use of collected data for researchers* (using SDCA-developed,
+        NNF-funded Seedcase software)
+    -   *Challenges and lessons learned in applying modern research ops
+        and data engineering to a large-scale, multi-center project*
+-   Resources:
+    -   Each center has resources and workflows for conducting
+        reproducible and modern register-based research using the Danish
+        registers
+    -   DP-Next data resource
+    -   DP-Next project website, with all (internal and external)
+        knowledge generated, including all code and documentation
