@@ -1,0 +1,52 @@
+---
+title: "Introduction"
+description: Background and motivation for project as well as its visions and aims.
+---
+
+We’ve structured and organised Work Package 1 (WP1) based on the
+increasing need for openness, transparency, and reproducibility in
+research. WP1 will deliver the day-to-day project and operations
+management of all the WPs, as well as facilitating the close
+collaboration and joint development of expertise across all seven Steno
+Centers. To achieve effective and optimal coordination and management of
+a complex project like this, we will apply modern and innovative methods
+in project and operational management practices, as well as applying a
+software and data engineering structure and perspective both operational
+aspects as well as to scientific outputs. We will employ resources and
+tools developed and tested at SDCA in the past years [@Johnston2022;
+@DARTER; @ukbaid; @seedcase; @sdca-github] to offer a practical
+framework for sharing knowledge and technical skills across centres,
+aiming to deliver "better research done in less time" [@Lowndes2017]
+while following reproducible and open scientific practices.
+
+## Visions
+
+-   *Doing better research in less time*
+
+-   *Training researchers in modern technical engineering and project
+    management skills*
+
+-   *Establish modern data engineering practices and research
+    operational approaches as a standard of practice when conducting
+    research*
+
+## Aims
+
+-   Create management groups to manage and coordinate centers and WPs in
+    completing their deliverables.
+
+-   Develop and implement cross-Steno Research Operations and modern
+    collaborative workflows and practices that support the successful
+    completion of each work package as well as improving research
+    practices across Steno centers.
+
+-   Optimise and reduce the time and effort spent between designing the
+    work package studies and the final disseminating high-quality
+    research results.
+
+-   Build up inter- and intra-Steno knowledge and skill capacity
+    ("upskill") in non-traditional technical skills and knowledge such
+    as software development, data engineering, operational management
+    (including "DataOps"), and iterative project management practices.
+
+## References
