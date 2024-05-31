@@ -22,17 +22,29 @@ state "Central knowledge repository" as ckr {
 
 state "Data engineering" as de {
   state "Data collection,\ngeneration" as dc
-  dc : - From WP3
+  dc : - From WP3 and WP4
+  
+  state "Registers ingestion" as ri
+  ri : - Original structure of Denmark\n  Statistics registers
+  ri : - For WP2
 
   state "Data engineering pipelines" as dep
   dep : - Automated data operations\n  pipeline (from raw to analyzable)
-  dep : - Rapid, automated internal\n  dissemination of research outputs
+  dep : - Rapid internal sharing\n  of data outputs
+
+  state "Data resource" as dr
+  dr : - Adhere to FAIR data principles
+  dr : - Follow data structure standards
+  dr : - Use modern data technologies
 }
 
 state "Data science" as ds {
   state "Reproducible analysis pipelines" as rap
-  rap : - Rapid, automated internal\n  dissemination of research outputs
+  rap : - Rapid, automated internal sharing\n  of research outputs
+  rap : - Running frequent code reviews
 
+  state "Reuse and packaging of code" as pkg
+  pkg : - Convert WP2 prediction into software
 }
 
 state "Project management" as pm
@@ -59,6 +71,9 @@ od -[hidden]-> share
 pm --> de
 pm --> ds
 dc --> dep
+dc -[hidden]> ri
+ri --> dep
+dep --> dr
 
 collab -> pm
 collab --> ckr
@@ -67,5 +82,7 @@ collab --> de
 edu -left> pm
 edu --> de
 edu --> ds
+
+rap --> pkg
 
 @enduml
