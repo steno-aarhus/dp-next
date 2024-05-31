@@ -121,53 +121,33 @@
     "text": "Why is a new strategy for diabetes prevention necessary?\nWe have known for over two decades that it is possible italics-in principle- to prevent Type 2 Diabetes in people at very high risk by encouraging them to participate in a very intensive lifestyle modification programme.\n\n\nThe original Diabetes Prevention Studies were conducted around the turn of the century.\n\n\n\nThe Diabetes Prevention Program (USA)\n\n\nThe Diabetes Prevention Study (Finland)\n\n\nThe Da Qing Study (China)\n\n\n\nUnfortunately, subsequent efforts to translate the benefits from these efficacy trials into sustainable day to day practice have largely failed. The first main issue is that the resources and intensity of the trial interventions are not practically achievable at large scale. Studies that have applied less intensive lifestyle interventions have generally shown only temporary impacts on weight, but no long-term impact on diabetes incidence. The second main issue is that the particular subgroup of pre-diabetes recruited into the trials (IGT) is the group at highest diabetes risk, but is rarely identified in daily practice especially since HbA1c has replaced the oral glucose tolerance test (OGTT) as the main diagnostic tool in Europe and the US since 2014.\nIn other words:\n\nThe population with high diabetes risk today is much more heterogeneous compared to the participants in the original prevention trials\nThe intensity of intervention applied in the efficacy trials is not pragmatically or sustainably achievable.\n\n\nWhat has changed since?\nThe past decades have brought a lot of new opportunities for diabetes prevention, which are currently often underutilised:\n\nExtensive, linkable health registers with population-wide coverage\nAdvanced statistical and machine learning methods\nDeeper insight into psychosocial barriers for sustainable health behaviour change\nStronger experience with methods for development of complex interventions\nExpanding evidence for substantial heterogeneity in (pre)diabetes and diabetes risk\nAdvanced technology for real time measurements (CGM, sleep, physical activity)\nWidespread adoption of communication via smartphones and use of apps"
   },
   {
-    "objectID": "wp1/planning.html",
-    "href": "wp1/planning.html",
-    "title": "Planning",
+    "objectID": "wp1/roadmap.html",
+    "href": "wp1/roadmap.html",
+    "title": "Roadmap",
     "section": "",
-    "text": "Estimated timeline for DP-Next project\n\n\n202520262027202820292030Task 1.1 General project managementTask 1.2 Optimising collaborationTask 2.1 Separate risk prediction model development Task 4.1 Investigate barriers and facilitators Task 3.2 Deep phenotyping substudy Task 2.2 Machine Learning approaches for risk prediction Task 2.3 Joint risk prediction model development Task 4.2 Develop and co-design intervention activities Task 3.1 Advanced clustering models Task 5.1 Validation of risk prediction models Task 5.2 Pilot testing of intervention components in specific populations Task 5.3 Evaluation of intervention WP1Managementand CollaborationWP2Risk PredictionWP3HeterogeneityWP4Developmentand interventionWP5Evaluationof interventionEstimated timeline for DP-Next project\n\n\n\n\nFigure 1: General Gantt chart for all of DP-Next.",
+    "text": "This document covers the basic, overall plan for DP-Next as well as the plan for WP1. While the Gantt charts display an overview of the project, the sections below on milestones and deliverables provide more detailed information than what can be put on the charts.\nEstimated timeline for DP-Next project\n\n\n202520262027202820292030Task 1.1 General project managementTask 1.2 Optimising collaborationTask 2.1 Separate risk prediction model development Task 4.1 Investigate barriers and facilitators Task 3.2 Deep phenotyping substudy Task 2.2 Machine Learning approaches for risk prediction Task 2.3 Joint risk prediction model development Task 4.2 Develop and co-design intervention activities Task 3.1 Advanced clustering models Task 5.1 Validation of risk prediction models Task 5.2 Pilot testing of intervention components in specific populations Task 5.3 Evaluation of intervention WP1Managementand CollaborationWP2Risk PredictionWP3HeterogeneityWP4Developmentand interventionWP5Evaluationof interventionEstimated timeline for DP-Next project\n\n\n\n\nFigure 1: Gantt chart showing high-level tasks and deliverables for all WPs within DP-Next.\nTasks, Milestones, and Deliverables for WP1\n\n\n202520262027202820292030Setup research ops practices pages on websiteAssess and improve on collaborationEstablish working groupsDiscuss and agree on ways to collaborateIdentify barriers and challenges to collaborationDevelop and add to project websiteSetup DP-Next project website with current detailsConsensus document on project’s agreed processes and workflowsDocument workflow for collaboration on WP2Document data engineering pipeline for WP3Develop and add to research ops websiteOpen-source Data Management Plan template, for WP3Use NNF-funded data infrastructure software for WP3Maintenance of Seedcase-managed data infrastructureOngoingactivitiesSetupTasks, Milestones, and Deliverables for WP1\n\n\n\n\nFigure 2: Gantt chart showing some basic tasks, milestones, and deliverables ffor Work Package 1",
     "crumbs": [
-      "Planning"
+      "Roadmap"
     ]
   },
   {
-    "objectID": "wp1/planning.html#dp-next-plan",
-    "href": "wp1/planning.html#dp-next-plan",
-    "title": "Planning",
-    "section": "",
-    "text": "Estimated timeline for DP-Next project\n\n\n202520262027202820292030Task 1.1 General project managementTask 1.2 Optimising collaborationTask 2.1 Separate risk prediction model development Task 4.1 Investigate barriers and facilitators Task 3.2 Deep phenotyping substudy Task 2.2 Machine Learning approaches for risk prediction Task 2.3 Joint risk prediction model development Task 4.2 Develop and co-design intervention activities Task 3.1 Advanced clustering models Task 5.1 Validation of risk prediction models Task 5.2 Pilot testing of intervention components in specific populations Task 5.3 Evaluation of intervention WP1Managementand CollaborationWP2Risk PredictionWP3HeterogeneityWP4Developmentand interventionWP5Evaluationof interventionEstimated timeline for DP-Next project\n\n\n\n\nFigure 1: General Gantt chart for all of DP-Next.",
-    "crumbs": [
-      "Planning"
-    ]
-  },
-  {
-    "objectID": "wp1/planning.html#wp1-specific-plan",
-    "href": "wp1/planning.html#wp1-specific-plan",
-    "title": "Planning",
-    "section": "WP1-specific plan",
-    "text": "WP1-specific plan\n\n\n\n\n\n\n\n\nTasks, Milestones, and Deliverables for WP1\n\n\n202520262027202820292030Setup research ops practices pages on websiteAssess and improve on collaborationEstablish working groupsDiscuss and agree on ways to collaborateIdentify barriers and challenges to collaborationDevelop and add to project websiteSetup DP-Next project website with current detailsConsensus document on project’s agreed processes and workflowsDocument workflow for collaboration on WP2Document data engineering pipeline for WP3Develop and add to research ops websiteOpen-source Data Management Plan template, for WP3Use NNF-funded data infrastructure software for WP3Maintenance of Seedcase-managed data infrastructureOngoingactivitiesSetupTasks, Milestones, and Deliverables for WP1\n\n\n\n\nFigure 2: Gantt chart for Work Package 1",
-    "crumbs": [
-      "Planning"
-    ]
-  },
-  {
-    "objectID": "wp1/planning.html#milestones",
-    "href": "wp1/planning.html#milestones",
-    "title": "Planning",
+    "objectID": "wp1/roadmap.html#milestones",
+    "href": "wp1/roadmap.html#milestones",
+    "title": "Roadmap",
     "section": "Milestones",
-    "text": "Milestones\n\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2",
+    "text": "Milestones\n\nSetup project website to host details and documents relevant to this project and it’s WPs\nSetup website to document and describe research operational practices used across Centers for easier sharing and onboarding\nOpen-source template Data Management Plan to use for WP3\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2",
     "crumbs": [
-      "Planning"
+      "Roadmap"
     ]
   },
   {
-    "objectID": "wp1/planning.html#deliverables",
-    "href": "wp1/planning.html#deliverables",
-    "title": "Planning",
+    "objectID": "wp1/roadmap.html#deliverables",
+    "href": "wp1/roadmap.html#deliverables",
+    "title": "Roadmap",
     "section": "Deliverables",
     "text": "Deliverables\n\nReports:\n\nConsensus document on agreed upon processes and workflows between WPs\nResearch operational management practices and processes employed in a large-scale multi-centered project: Future uses of using modern approaches to team-based research\nDP-Next as an open-access and secure Data Resource for broader re-use of collected data for researchers (using SDCA-developed, NNF-funded Seedcase software)\nChallenges and lessons learned in applying modern research ops and data engineering to a large-scale, multi-center project\n\nResources:\n\nEach center has resources and workflows for conducting reproducible and modern register-based research using the Danish registers\nDP-Next data resource\nDP-Next project website, with all (internal and external) knowledge generated, including all code and documentation",
     "crumbs": [
-      "Planning"
+      "Roadmap"
     ]
   },
   {
@@ -185,7 +165,7 @@
     "href": "wp1/introduction.html#visions",
     "title": "Introduction",
     "section": "Visions",
-    "text": "Visions\n\nDoing better research in less time\nTraining researchers in modern technical engineering and project management skills\nEstablish modern data engineering practices and research operational approaches as a standard of practice when conducting research",
+    "text": "Visions\n\nBetter research done in less time\nResearchers with modern technical engineering-based and project management skills embedded in more groups\nModern data engineering practices and research operational approaches established as a standard of practice when conducting research",
     "crumbs": [
       "Introduction"
     ]
