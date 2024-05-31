@@ -1,25 +1,34 @@
 ---
-title: "Planning"
-description: Project planning, outputs, and Gantt charts for WP1.
+title: "Roadmap"
+description: General project planning, outputs, and Gantt charts for WP1.
 ---
 
-## DP-Next plan
+This document covers the basic, overall plan for DP-Next as well as the
+plan for WP1. While the Gantt charts display an overview of the project,
+the sections below on milestones and deliverables provide more detailed
+information than what can be put on the charts.
 
 ```{mermaid}
 %%| file: images/gantt.mmd
 %%| label: fig-gantt
-%%| fig-cap: "General Gantt chart for all of DP-Next."
+%%| fig-cap: "Gantt chart showing high-level tasks and deliverables for all WPs within DP-Next."
 ```
-
-## WP1-specific plan
 
 ```{mermaid}
 %%| file: images/gantt-wp1.mmd
 %%| label: fig-gantt-wp1 
-%%| fig-cap: "Gantt chart for Work Package 1"
+%%| fig-cap: "Gantt chart showing some basic tasks, milestones, and deliverables ffor Work Package 1"
 ```
 
 ## Milestones
+
+-   Setup project website to host details and documents relevant to this
+    project and it's WPs
+
+-   Setup website to document and describe research operational
+    practices used across Centers for easier sharing and onboarding
+
+-   Open-source template Data Management Plan to use for WP3
 
 -   Setup research data infrastructure that supports adhering to open
     FAIR practices for ease of internal and external sharing of data for
