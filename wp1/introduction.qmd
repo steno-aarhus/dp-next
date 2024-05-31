@@ -21,13 +21,13 @@ while following reproducible and open scientific practices.
 
 ## Visions
 
--   *Doing better research in less time*
+-   *Better research done in less time*
 
--   *Training researchers in modern technical engineering and project
-    management skills*
+-   *Researchers with modern technical engineering-based and project
+    management skills embedded in more groups*
 
--   *Establish modern data engineering practices and research
-    operational approaches as a standard of practice when conducting
+-   *Modern data engineering practices and research operational
+    approaches established as a standard of practice when conducting
     research*
 
 ## Aims
