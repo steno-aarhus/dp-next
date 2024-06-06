@@ -41,7 +41,11 @@ We aim to use these developments to design and deliver a sustainably effective s
 
 We will work towards this aim in four Work Packages (WP) across all seven Steno Diabetes Centres:
 
-![There are 5 Steno Diabetes Centers in Denmark, one in Greenland and one on the Faroe Islands.](./images/DK_map_SDC.jpg)
+```{mermaid}
+%%| file: images/DK_map_SDC.jpg
+%%| label: fig-DK-map_SDC 
+%%| fig-cap: "There are 5 Steno Diabetes Centers in Denmark, one in Greenland and one on the Faroe Islands."
+```
 
 WP1 (Management and Collaboration) will manage the project and foster deep collaboration between all partners. 
 WP2 (Risk Prediction) will develop an exclusively register-based diabetes risk prediction model for the entire Danish, Greenlandic and Faroese populations, applying advanced statistical and machine learning approaches on a wide set of risk indicators.  It will map out meaningful subgroups and validate internally and in external populations.
