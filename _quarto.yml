@@ -3,23 +3,19 @@ project:
 
 website:
   title: "DP-Next"
-  # TODO: Change REPO-NAME to the name of the current repo
   site-url: "https://steno-aarhus.github.io/dp-next/"
   repo-url: "https://github.com/steno-aarhus/dp-next"
   navbar:
     pinned: true
     left:
       - index.qmd 
-      - text: WP1
-        menu:
-          - wp1/index.qmd
-          - wp1/introduction.qmd
-          - wp1/strategy.qmd
-          - wp1/roadmap.qmd
-          - wp1/application.qmd
-      - wp2.qmd 
-      - wp3.qmd 
-      - wp4.qmd 
+      - sidebar:wp1
+      - text: WP2
+        href: wp2.qmd 
+      - text: WP3
+        href: wp3.qmd 
+      - text: WP4
+        href: wp4.qmd 
     tools:
       - icon: github
         href: "https://github.com/steno-aarhus/"
@@ -37,10 +33,9 @@ website:
           - wp1/roadmap.qmd
           - wp1/application.qmd
 
-
 format: 
-  sdca-theme-html: 
-    mermaid-format: svg
+  sdca-theme-html
+
 bibliography: references.bib
 csl: vancouver.csl
 
