@@ -1,22 +1,22 @@
 ---
-title: "Summary"
-description: "Overall summary of WP1"
+title: "Abstract"
+description: "Doing 'better research in less time' by following modern collaboration, open, and planning practices."
 ---
 
-Science is increasingly moving into more team-based, multi-centered
-enterprises, as well as having a greater requirement for openness and
-reproducibility. These require using modern practices designed for these
-conditions, rarely seen in academia but common within many industry
-settings. Our aim with WP1 is to deliver “better, open, and reproducible
-research done in less time” by employing these practices, as well as
-providing upskilling opportunities to researchers for skills and
-knowledge in these practices.
+Science, while generating cutting-edge knowledge, lags behind most
+industry settings when it comes to practical, operational aspects. For
+instance, while much of research done now relies heavily on software and
+computational work, funding agencies rarely fund software and data
+engineering projects, nor do many research groups hire these highly
+skilled technical personnel. So, the aim of Work Package 1 is to
+establish these skills and needs as a core component of this project and
+to help do "better research in less time".
 
 Our basic strategies will be to establish working groups, including a
-group dedicated to “research operations” to fulfil this core aim, as
+group dedicated to "research operations" to fulfil this core aim, as
 well as developing and implementing common practices and tools that
 maximise collaboration and that follow some guiding principles. All
-groups will include a “tech lead” who has technical knowledge and skills
+groups will include a "tech lead" who has technical knowledge and skills
 and who will also be part of the research operations group, to help
 coordinate WP groups with these practices. We aim to onboard and train
 the tech leads in these practices by embedding them in some work done at

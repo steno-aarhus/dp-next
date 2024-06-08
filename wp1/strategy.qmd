@@ -13,16 +13,18 @@ strategy incorporates not only the standard project management
 activities as well as modern approaches to coordinating tasks and
 outputs between groups. The general strategies we’ll take are to:
 
-Establish an overall management group and a research operations group of
-relevant persons from each center to track progress, coordinate tasks,
-and manage the project Develop and agree on some guiding principles for
-collaboration and work to follow across centers and WPs that adhere to
-open science practices Investigate and identify resources, limitations,
-and barriers on cross-Steno collaboration practices and processes
-Develop and agree on a set of common tools and standards to use across
-centers for WP to have smoother collaboration and sharing of outputs,
-that also consider the barriers and resources as well as the guiding
-principles
+-   Establish an overall management group and a research operations
+    group of relevant persons from each center to track progress,
+    coordinate tasks, and manage the project.
+-   Develop and agree on some guiding principles for collaboration and
+    work to follow across centers and WPs that adhere to open science
+    practices.
+-   Investigate and identify resources, limitations, and barriers on
+    cross-Steno collaboration practices and processes.
+-   Develop and agree on a set of common tools and standards to use
+    across centers for WP to have smoother collaboration and sharing of
+    outputs, that also consider the barriers and resources as well as
+    the guiding principles.
 
 ## Guiding principles
 
@@ -65,9 +67,7 @@ are considering that follow the principles include:
     methods for project management
 -   Seedcase software for data management and sharing
 
-## Considerations
-
-### Challenges
+## Potential barriers and challenges
 
 Aside from the standard project management tasks, implementing modern
 research ops and collaborative practices that support conducting open

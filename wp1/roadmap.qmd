@@ -17,7 +17,7 @@ information than what can be put on the charts.
 ```{mermaid}
 %%| file: images/gantt-wp1.mmd
 %%| label: fig-gantt-wp1 
-%%| fig-cap: "Gantt chart showing some basic tasks, milestones, and deliverables ffor Work Package 1"
+%%| fig-cap: "Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1"
 ```
 
 ## Milestones
@@ -40,21 +40,25 @@ information than what can be put on the charts.
 
 ## Deliverables
 
--   Reports:
-    -   *Consensus document on agreed upon processes and workflows
-        between WPs*
-    -   *Research operational management practices and processes
-        employed in a large-scale multi-centered project: Future uses of
-        using modern approaches to team-based research*
-    -   *DP-Next as an open-access and secure Data Resource for broader
-        re-use of collected data for researchers* (using SDCA-developed,
-        NNF-funded Seedcase software)
-    -   *Challenges and lessons learned in applying modern research ops
-        and data engineering to a large-scale, multi-center project*
--   Resources:
-    -   Each center has resources and workflows for conducting
-        reproducible and modern register-based research using the Danish
-        registers
-    -   DP-Next data resource
-    -   DP-Next project website, with all (internal and external)
-        knowledge generated, including all code and documentation
+::: {layout-ncol="2"}
+### Reports
+
+-   Consensus document on agreed upon processes and workflows between
+    WPs
+-   Research operational management practices and processes employed in
+    a large-scale multi-centered project: Future uses of using modern
+    approaches to team-based research
+-   DP-Next as an open-access and secure Data Resource for broader
+    re-use of collected data for researchers (using SDCA-developed,
+    NNF-funded Seedcase software)
+-   Challenges and lessons learned in applying modern research ops and
+    data engineering to a large-scale, multi-center project
+
+### Resources
+
+-   Each center has resources and workflows for conducting reproducible
+    and modern register-based research using the Danish registers
+-   DP-Next data resource
+-   DP-Next project website, with all (internal and external) knowledge
+    generated, including all code and documentation
+:::
