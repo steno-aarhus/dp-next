@@ -91,7 +91,9 @@ div.csl-indent {
 background-size: cover;
       }
 </style>
-<script src="../site_libs/quarto-diagram/mermaid-postprocess-shim.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -124,7 +126,7 @@ background-size: cover;
     <ul class="dropdown-menu" aria-labelledby="nav-menu-wp1">    
         <li>
     <a class="dropdown-item" href="../wp1/index.html">
- <span class="dropdown-text">Summary</span></a>
+ <span class="dropdown-text">Abstract</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../wp1/introduction.html">
@@ -146,15 +148,15 @@ background-size: cover;
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../wp2.html"> 
-<span class="menu-text">Work Package 2</span></a>
+<span class="menu-text">WP2</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../wp3.html"> 
-<span class="menu-text">Work Package 3</span></a>
+<span class="menu-text">WP3</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../wp4.html"> 
-<span class="menu-text">Work Package 4</span></a>
+<span class="menu-text">WP4</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -205,7 +207,7 @@ background-size: cover;
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../wp1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Summary</span></a>
+ <span class="menu-text">Abstract</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -266,37 +268,59 @@ background-size: cover;
 <section id="second-round" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="second-round">Second round</h2>
 <ul>
-<li><strong>Characters</strong>: 654 / 1800 characters</li>
+<li><strong>Characters</strong>: 2200 / 1800 characters</li>
 </ul>
-<p>Science, while pursuing cutting edge knowledge, lags far behind in general operational, organisational, and technological aspects that are standard practice in many industry settings. From this, the core visions of WP1 are to do better research in less time <span class="citation" data-cites="Lowndes2017">(<a href="#ref-Lowndes2017" role="doc-biblioref">6</a>)</span> and expand the capacity of modern technical engineering-based skills in research groups. By applying modern operational and project management practices, we will optimize work done across the WPs. Through formal and informal upskilling sessions, we will develop data engineering and modern collaborative skills and knowledge in researchers from across the Steno Centers.</p>
-<p>Strategy</p>
-<p>At SDCA, we have been developing and applying these practices</p>
-<p>Management and groups</p>
-<p>Aside from the traditional management group overseeing the project, we will also have a operations group that will simplify coordination between WPs and groups as well as provide a space for learning these new technical skills.</p>
-<p>Methods and tools</p>
-<p>Education</p>
-<p>Coordination examples</p>
-<p>Deliverables and milestones</p>
-<p>Links and references</p>
-<p>Science is state of the art in knowledge, but lags far behind in general operational, organisational, and technological aspects. For instance, there are nearly no research software engineers within research groups or institutions, nor are basic modern communication and project management tools often used even though they are standard practice in many corporate settings. In particular, these aspects are not shared and advertised, so if they exist, others can reuse and learn about something that isn’t shared. At SDCA, we are working to remedy that gap in knowledge and skill through several initiatives (LIST THEM).</p>
+<p>Science, while pursuing cutting edge knowledge, lags behind industry in standard operational, organisational, and technological practices, tools, and methods. From this, the core visions of WP1 are to do better research in less time <span class="citation" data-cites="Lowndes2017">(<a href="#ref-Lowndes2017" role="doc-biblioref">6</a>)</span> and expand the capacity of modern technical engineering-based skills in research groups across Steno and Denmark. By applying modern operational, engineering, and project management practices, we will optimize work done across the WPs. Through formal and informal upskilling sessions, we will develop data engineering and modern collaborative skills and knowledge in researchers from across the Steno Centers.</p>
+<p>At SDCA, we have been developing and applying these practices in multiple projects <span class="citation" data-cites="Johnston2022 DARTER ukbaid seedcase sdca-github">(<a href="#ref-Johnston2022" role="doc-biblioref">1</a>–<a href="#ref-sdca-github" role="doc-biblioref">5</a>)</span>, which highlight tangible examples of WP1’s activities. The general strategy for WP1 is to: 1) develop and agree on some basic principles for collaboration between centers and WPs that adhere to open scientific practices and modern collaborative methods; 2) investigate potential barriers to effective cross-Steno collaboration; 3) decide on a set of common tools and standards to use across centers for WP. Specific actions and tasks are found in <a href="#fig-gantt-wp1" class="quarto-xref">Figure&nbsp;1 (b)</a> and <a href="#fig-actions" class="quarto-xref">Figure&nbsp;1 (d)</a>.</p>
+<p>Aside from the traditional management group overseeing the project, we will also have a research operations group that will simplify, streamline, and automate the collaboration and coordination of activities and products between WPs and centers as well as provide a space for learning these technical skills. See <a href="#fig-organization" class="quarto-xref">Figure&nbsp;1 (c)</a> and the collaboration section below for more details, as well as <a href="#fig-gantt" class="quarto-xref">Figure&nbsp;1 (a)</a> for the general project timeline.</p>
+<p>A major component of WP1 is also upskilling activities, in collaboration with the NNF-funded software and training-based Seedcase Project <span class="citation" data-cites="seedcase">(<a href="#ref-seedcase" role="doc-biblioref">4</a>)</span>. Training will focus on skills not often taught to researchers, such as data engineering, modern collaborative practices, and iterative project management methods.</p>
+<p>More detail on this WP can be found on the DP-Next website (https://steno-aarhus.github.io/dp-next/wp1/), such as the roadmap, potential challenges, and strategy.</p>
 <div class="column-page">
 <div id="fig-app-round2" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-app-round2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="quarto-layout-row">
-<div class="cell quarto-layout-cell-subref quarto-layout-cell" data-file="images/gantt.mmd" data-ref-parent="fig-app-round2" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell quarto-layout-cell-subref quarto-layout-cell" data-file="images/gantt.mmd" data-fig-width="7" data-ref-parent="fig-app-round2" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="cell-output-display quarto-layout-cell-subref" data-ref-parent="fig-app-round2">
 <div id="fig-gantt" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-gantt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
-<svg aria-labelledby="chart-title-mermaid-1717696487240" aria-roledescription="gantt" role="graphics-document document" viewbox="0 0 784 388" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="672" id="mermaid-figure-1" height="480">
-<title id="chart-title-mermaid-1717696487240">
-Estimated timeline for DP-Next project
-</title>
-<style>#mermaid-figure-1{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#mermaid-figure-1 .error-icon{fill:#552222;}#mermaid-figure-1 .error-text{fill:#552222;stroke:#552222;}#mermaid-figure-1 .edge-thickness-normal{stroke-width:2px;}#mermaid-figure-1 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-figure-1 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-figure-1 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-figure-1 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-figure-1 .marker{fill:#333333;stroke:#333333;}#mermaid-figure-1 .marker.cross{stroke:#333333;}#mermaid-figure-1 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-figure-1 .mermaid-main-font{font-family:"trebuchet ms",verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-1 .exclude-range{fill:#eeeeee;}#mermaid-figure-1 .section{stroke:none;opacity:0.2;}#mermaid-figure-1 .section0{fill:rgba(102, 102, 255, 0.49);}#mermaid-figure-1 .section2{fill:#fff400;}#mermaid-figure-1 .section1,#mermaid-figure-1 .section3{fill:white;opacity:0.2;}#mermaid-figure-1 .sectionTitle0{fill:#333;}#mermaid-figure-1 .sectionTitle1{fill:#333;}#mermaid-figure-1 .sectionTitle2{fill:#333;}#mermaid-figure-1 .sectionTitle3{fill:#333;}#mermaid-figure-1 .sectionTitle{text-anchor:start;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-1 .grid .tick{stroke:lightgrey;opacity:0.8;shape-rendering:crispEdges;}#mermaid-figure-1 .grid .tick text{font-family:"trebuchet ms",verdana,arial,sans-serif;fill:#333;}#mermaid-figure-1 .grid path{stroke-width:0;}#mermaid-figure-1 .today{fill:none;stroke:red;stroke-width:2px;}#mermaid-figure-1 .task{stroke-width:2;}#mermaid-figure-1 .taskText{text-anchor:middle;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-1 .taskTextOutsideRight{fill:black;text-anchor:start;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-1 .taskTextOutsideLeft{fill:black;text-anchor:end;}#mermaid-figure-1 .task.clickable{cursor:pointer;}#mermaid-figure-1 .taskText.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-figure-1 .taskTextOutsideLeft.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-figure-1 .taskTextOutsideRight.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-figure-1 .taskText0,#mermaid-figure-1 .taskText1,#mermaid-figure-1 .taskText2,#mermaid-figure-1 .taskText3{fill:white;}#mermaid-figure-1 .task0,#mermaid-figure-1 .task1,#mermaid-figure-1 .task2,#mermaid-figure-1 .task3{fill:#8a90dd;stroke:#534fbc;}#mermaid-figure-1 .taskTextOutside0,#mermaid-figure-1 .taskTextOutside2{fill:black;}#mermaid-figure-1 .taskTextOutside1,#mermaid-figure-1 .taskTextOutside3{fill:black;}#mermaid-figure-1 .active0,#mermaid-figure-1 .active1,#mermaid-figure-1 .active2,#mermaid-figure-1 .active3{fill:#bfc7ff;stroke:#534fbc;}#mermaid-figure-1 .activeText0,#mermaid-figure-1 .activeText1,#mermaid-figure-1 .activeText2,#mermaid-figure-1 .activeText3{fill:black!important;}#mermaid-figure-1 .done0,#mermaid-figure-1 .done1,#mermaid-figure-1 .done2,#mermaid-figure-1 .done3{stroke:grey;fill:lightgrey;stroke-width:2;}#mermaid-figure-1 .doneText0,#mermaid-figure-1 .doneText1,#mermaid-figure-1 .doneText2,#mermaid-figure-1 .doneText3{fill:black!important;}#mermaid-figure-1 .crit0,#mermaid-figure-1 .crit1,#mermaid-figure-1 .crit2,#mermaid-figure-1 .crit3{stroke:#ff8888;fill:red;stroke-width:2;}#mermaid-figure-1 .activeCrit0,#mermaid-figure-1 .activeCrit1,#mermaid-figure-1 .activeCrit2,#mermaid-figure-1 .activeCrit3{stroke:#ff8888;fill:#bfc7ff;stroke-width:2;}#mermaid-figure-1 .doneCrit0,#mermaid-figure-1 .doneCrit1,#mermaid-figure-1 .doneCrit2,#mermaid-figure-1 .doneCrit3{stroke:#ff8888;fill:lightgrey;stroke-width:2;cursor:pointer;shape-rendering:crispEdges;}#mermaid-figure-1 .milestone{transform:rotate(45deg) scale(0.8,0.8);}#mermaid-figure-1 .milestoneText{font-style:italic;}#mermaid-figure-1 .doneCritText0,#mermaid-figure-1 .doneCritText1,#mermaid-figure-1 .doneCritText2,#mermaid-figure-1 .doneCritText3{fill:black!important;}#mermaid-figure-1 .activeCritText0,#mermaid-figure-1 .activeCritText1,#mermaid-figure-1 .activeCritText2,#mermaid-figure-1 .activeCritText3{fill:black!important;}#mermaid-figure-1 .titleText{text-anchor:middle;font-size:18px;fill:#333;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
-<g></g><g></g><g text-anchor="middle" font-family="sans-serif" font-size="10" fill="none" transform="translate(75, 338)" class="grid"><path d="M0.5,-303V0.5H634.5V-303" stroke="currentColor" class="domain"></path><g transform="translate(0.5,0)" opacity="1" class="tick"><line y2="-303" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2025</text></g><g transform="translate(127.5,0)" opacity="1" class="tick"><line y2="-303" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2026</text></g><g transform="translate(253.5,0)" opacity="1" class="tick"><line y2="-303" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2027</text></g><g transform="translate(380.5,0)" opacity="1" class="tick"><line y2="-303" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2028</text></g><g transform="translate(507.5,0)" opacity="1" class="tick"><line y2="-303" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2029</text></g><g transform="translate(634.5,0)" opacity="1" class="tick"><line y2="-303" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2030</text></g></g><g><rect class="section section0" height="24" width="746.5" y="48" x="0"></rect><rect class="section section0" height="24" width="746.5" y="72" x="0"></rect><rect class="section section1" height="24" width="746.5" y="96" x="0"></rect><rect class="section section3" height="24" width="746.5" y="216" x="0"></rect><rect class="section section2" height="24" width="746.5" y="192" x="0"></rect><rect class="section section1" height="24" width="746.5" y="120" x="0"></rect><rect class="section section1" height="24" width="746.5" y="144" x="0"></rect><rect class="section section3" height="24" width="746.5" y="240" x="0"></rect><rect class="section section2" height="24" width="746.5" y="168" x="0"></rect><rect class="section section0" height="24" width="746.5" y="264" x="0"></rect><rect class="section section0" height="24" width="746.5" y="288" x="0"></rect><rect class="section section0" height="24" width="746.5" y="312" x="0"></rect></g><g><rect class="task task0" transform-origin="392px 60px" height="20" width="634" y="50" x="75" ry="3" rx="3" id="t1_1"></rect><rect class="task task0" transform-origin="392px 84px" height="20" width="634" y="74" x="75" ry="3" rx="3" id="t1_2"></rect><rect class="task task1" transform-origin="170px 108px" height="20" width="190" y="98" x="75" ry="3" rx="3" id="t2_1"></rect><rect class="task task3" transform-origin="170px 228px" height="20" width="190" y="218" x="75" ry="3" rx="3" id="t4_1"></rect><rect class="task task2" transform-origin="423.5px 204px" height="20" width="571" y="194" x="138" ry="3" rx="3" id="t3_2"></rect><rect class="task task1" transform-origin="296.5px 132px" height="20" width="189" y="122" x="202" ry="3" rx="3" id="t2_2"></rect><rect class="task task1" transform-origin="360px 156px" height="20" width="190" y="146" x="265" ry="3" rx="3" id="t2_3"></rect><rect class="task task3" transform-origin="360px 252px" height="20" width="190" y="242" x="265" ry="3" rx="3" id="t4_2"></rect><rect class="task task2" transform-origin="486.5px 180px" height="20" width="191" y="170" x="391" ry="3" rx="3" id="t3_1"></rect><rect class="task task0" transform-origin="550px 276px" height="20" width="190" y="266" x="455" ry="3" rx="3" id="t5_1"></rect><rect class="task task0" transform-origin="518.5px 300px" height="20" width="127" y="290" x="455" ry="3" rx="3" id="t5_2"></rect><rect class="task task0" transform-origin="613.5px 324px" height="20" width="191" y="314" x="518" ry="3" rx="3" id="t5_3"></rect><text class="taskText taskText0  width-186.5" y="63.5" x="392" font-size="11" id="t1_1-text">Task 1.1 General project management</text><text class="taskText taskText0  width-161.421875" y="87.5" x="392" font-size="11" id="t1_2-text">Task 1.2 Optimising collaboration</text><text class="taskTextOutsideRight taskTextOutside1  width-258.640625" y="111.5" x="270" font-size="11" id="t2_1-text">Task 2.1 Separate risk prediction model development </text><text class="taskTextOutsideRight taskTextOutside3  width-212.0458984375" y="231.5" x="270" font-size="11" id="t4_1-text">Task 4.1 Investigate barriers and facilitators </text><text class="taskText taskText2  width-180.89892578125" y="207.5" x="423.5" font-size="11" id="t3_2-text">Task 3.2 Deep phenotyping substudy </text><text class="taskTextOutsideRight taskTextOutside1  width-278.828125" y="135.5" x="396" font-size="11" id="t2_2-text">Task 2.2 Machine Learning approaches for risk prediction </text><text class="taskTextOutsideRight taskTextOutside1  width-237.234375" y="159.5" x="460" font-size="11" id="t2_3-text">Task 2.3 Joint risk prediction model development </text><text class="taskTextOutsideRight taskTextOutside3  width-262.201171875" y="255.5" x="460" font-size="11" id="t4_2-text">Task 4.2 Develop and co-design intervention activities </text><text class="taskText taskText2  width-181.48974609375" y="183.5" x="486.5" font-size="11" id="t3_1-text">Task 3.1 Advanced clustering models </text><text class="taskTextOutsideLeft taskTextOutside0" y="279.5" x="450" font-size="11" id="t5_1-text">Task 5.1 Validation of risk prediction models </text><text class="taskTextOutsideLeft taskTextOutside0" y="303.5" x="450" font-size="11" id="t5_2-text">Task 5.2 Pilot testing of intervention components in specific populations </text><text class="taskText taskText0  width-167.546875" y="327.5" x="613.5" font-size="11" id="t5_3-text">Task 5.3 Evaluation of intervention </text></g><g><text class="sectionTitle sectionTitle0" font-size="11" y="74" x="10" dy="-1em"><tspan x="10" alignment-baseline="central">WP1</tspan><tspan dy="1em" x="10" alignment-baseline="central">Management</tspan><tspan dy="1em" x="10" alignment-baseline="central">and Collaboration</tspan></text><text class="sectionTitle sectionTitle1" font-size="11" y="134" x="10" dy="-0.5em"><tspan x="10" alignment-baseline="central">WP2</tspan><tspan dy="1em" x="10" alignment-baseline="central">Risk Prediction</tspan></text><text class="sectionTitle sectionTitle2" font-size="11" y="194" x="10" dy="-0.5em"><tspan x="10" alignment-baseline="central">WP3</tspan><tspan dy="1em" x="10" alignment-baseline="central">Heterogeneity</tspan></text><text class="sectionTitle sectionTitle3" font-size="11" y="242" x="10" dy="-1em"><tspan x="10" alignment-baseline="central">WP4</tspan><tspan dy="1em" x="10" alignment-baseline="central">Development</tspan><tspan dy="1em" x="10" alignment-baseline="central">and intervention</tspan></text><text class="sectionTitle sectionTitle0" font-size="11" y="302" x="10" dy="-1em"><tspan x="10" alignment-baseline="central">WP5</tspan><tspan dy="1em" x="10" alignment-baseline="central">Evaluation</tspan><tspan dy="1em" x="10" alignment-baseline="central">of intervention</tspan></text></g><text class="titleText" y="25" x="392">Estimated timeline for DP-Next project</text>
-</svg>
+<pre class="mermaid mermaid-js" data-label="fig-gantt">%%{init: {
+  'theme': 'neutral', 
+  'gantt': {
+    'barHeight': 25,
+    'leftPadding': 125
+  }
+}}%%
+gantt
+    title Estimated timeline and activities for DP-Next project
+    dateFormat  YYYY-MM-DD
+    axisFormat %Y
+    tickInterval 1year
+    todayMarker off
+    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+    section WP1&lt;br&gt;Management&lt;br&gt;and Collaboration
+    T1.1 General project management: t1_1, 2025-01-01, 5y
+    T1.2 Optimising collaboration: t1_2, 2025-01-01, 5y
+
+    section WP2&lt;br&gt;Risk Prediction
+    T2.1 Separate model development: t2_1, 2025-01-01, 18M
+    T2.2 Machine Learning approaches: t2_2, 2026-01-01, 18M
+    T2.3 Joint model development: t2_3, 2026-07-01, 18M
+    T2.4 Validation: t2_4, 2028-01-01, 18M
+
+    section WP3&lt;br&gt;Heterogeneity
+    T3.1 Advanced clustering models: t3_1, 2027-07-01, 18M
+    T3.2 Deep phenotyping substudy: t3_2, 2025-07-01, 54M
+
+    section WP4&lt;br&gt;Development&lt;br&gt;and intervention
+    T4.1 Investigate barriers and facilitators: t4_1, 2025-01-01, 18M
+    T4.2 Develop &amp; co-design: t4_2, after t4_1, 18M
+    T4.3 Pilot test in specific populations: t4_3, after t4_2, 1y
+    T4.4 Evaluation: t4_4, 2028-07-01, 18M
+</pre>
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-gantt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -312,13 +336,53 @@ Estimated timeline for DP-Next project
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-gantt-wp1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
-<svg aria-labelledby="chart-title-mermaid-1717696487532" aria-roledescription="gantt" role="graphics-document document" viewbox="0 0 784 436" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="672" id="mermaid-figure-2" height="480">
-<title id="chart-title-mermaid-1717696487532">
-Tasks, Milestones, and Deliverables for WP1
-</title>
-<style>#mermaid-figure-2{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#mermaid-figure-2 .error-icon{fill:#552222;}#mermaid-figure-2 .error-text{fill:#552222;stroke:#552222;}#mermaid-figure-2 .edge-thickness-normal{stroke-width:2px;}#mermaid-figure-2 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-figure-2 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-figure-2 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-figure-2 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-figure-2 .marker{fill:#333333;stroke:#333333;}#mermaid-figure-2 .marker.cross{stroke:#333333;}#mermaid-figure-2 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-figure-2 .mermaid-main-font{font-family:"trebuchet ms",verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-2 .exclude-range{fill:#eeeeee;}#mermaid-figure-2 .section{stroke:none;opacity:0.2;}#mermaid-figure-2 .section0{fill:rgba(102, 102, 255, 0.49);}#mermaid-figure-2 .section2{fill:#fff400;}#mermaid-figure-2 .section1,#mermaid-figure-2 .section3{fill:white;opacity:0.2;}#mermaid-figure-2 .sectionTitle0{fill:#333;}#mermaid-figure-2 .sectionTitle1{fill:#333;}#mermaid-figure-2 .sectionTitle2{fill:#333;}#mermaid-figure-2 .sectionTitle3{fill:#333;}#mermaid-figure-2 .sectionTitle{text-anchor:start;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-2 .grid .tick{stroke:lightgrey;opacity:0.8;shape-rendering:crispEdges;}#mermaid-figure-2 .grid .tick text{font-family:"trebuchet ms",verdana,arial,sans-serif;fill:#333;}#mermaid-figure-2 .grid path{stroke-width:0;}#mermaid-figure-2 .today{fill:none;stroke:red;stroke-width:2px;}#mermaid-figure-2 .task{stroke-width:2;}#mermaid-figure-2 .taskText{text-anchor:middle;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-2 .taskTextOutsideRight{fill:black;text-anchor:start;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-2 .taskTextOutsideLeft{fill:black;text-anchor:end;}#mermaid-figure-2 .task.clickable{cursor:pointer;}#mermaid-figure-2 .taskText.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-figure-2 .taskTextOutsideLeft.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-figure-2 .taskTextOutsideRight.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-figure-2 .taskText0,#mermaid-figure-2 .taskText1,#mermaid-figure-2 .taskText2,#mermaid-figure-2 .taskText3{fill:white;}#mermaid-figure-2 .task0,#mermaid-figure-2 .task1,#mermaid-figure-2 .task2,#mermaid-figure-2 .task3{fill:#8a90dd;stroke:#534fbc;}#mermaid-figure-2 .taskTextOutside0,#mermaid-figure-2 .taskTextOutside2{fill:black;}#mermaid-figure-2 .taskTextOutside1,#mermaid-figure-2 .taskTextOutside3{fill:black;}#mermaid-figure-2 .active0,#mermaid-figure-2 .active1,#mermaid-figure-2 .active2,#mermaid-figure-2 .active3{fill:#bfc7ff;stroke:#534fbc;}#mermaid-figure-2 .activeText0,#mermaid-figure-2 .activeText1,#mermaid-figure-2 .activeText2,#mermaid-figure-2 .activeText3{fill:black!important;}#mermaid-figure-2 .done0,#mermaid-figure-2 .done1,#mermaid-figure-2 .done2,#mermaid-figure-2 .done3{stroke:grey;fill:lightgrey;stroke-width:2;}#mermaid-figure-2 .doneText0,#mermaid-figure-2 .doneText1,#mermaid-figure-2 .doneText2,#mermaid-figure-2 .doneText3{fill:black!important;}#mermaid-figure-2 .crit0,#mermaid-figure-2 .crit1,#mermaid-figure-2 .crit2,#mermaid-figure-2 .crit3{stroke:#ff8888;fill:red;stroke-width:2;}#mermaid-figure-2 .activeCrit0,#mermaid-figure-2 .activeCrit1,#mermaid-figure-2 .activeCrit2,#mermaid-figure-2 .activeCrit3{stroke:#ff8888;fill:#bfc7ff;stroke-width:2;}#mermaid-figure-2 .doneCrit0,#mermaid-figure-2 .doneCrit1,#mermaid-figure-2 .doneCrit2,#mermaid-figure-2 .doneCrit3{stroke:#ff8888;fill:lightgrey;stroke-width:2;cursor:pointer;shape-rendering:crispEdges;}#mermaid-figure-2 .milestone{transform:rotate(45deg) scale(0.8,0.8);}#mermaid-figure-2 .milestoneText{font-style:italic;}#mermaid-figure-2 .doneCritText0,#mermaid-figure-2 .doneCritText1,#mermaid-figure-2 .doneCritText2,#mermaid-figure-2 .doneCritText3{fill:black!important;}#mermaid-figure-2 .activeCritText0,#mermaid-figure-2 .activeCritText1,#mermaid-figure-2 .activeCritText2,#mermaid-figure-2 .activeCritText3{fill:black!important;}#mermaid-figure-2 .titleText{text-anchor:middle;font-size:18px;fill:#333;font-family:'trebuchet ms',verdana,arial,sans-serif;font-family:var(--mermaid-font-family);}#mermaid-figure-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
-<g></g><g></g><g text-anchor="middle" font-family="sans-serif" font-size="10" fill="none" transform="translate(75, 386)" class="grid"><path d="M0.5,-351V0.5H634.5V-351" stroke="currentColor" class="domain"></path><g transform="translate(0.5,0)" opacity="1" class="tick"><line y2="-351" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2025</text></g><g transform="translate(127.5,0)" opacity="1" class="tick"><line y2="-351" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2026</text></g><g transform="translate(253.5,0)" opacity="1" class="tick"><line y2="-351" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2027</text></g><g transform="translate(380.5,0)" opacity="1" class="tick"><line y2="-351" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2028</text></g><g transform="translate(507.5,0)" opacity="1" class="tick"><line y2="-351" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2029</text></g><g transform="translate(634.5,0)" opacity="1" class="tick"><line y2="-351" stroke="currentColor"></line><text style="text-anchor: middle;" font-size="10" stroke="none" dy="1em" y="3" fill="#000">2030</text></g></g><g><rect class="section section0" height="24" width="746.5" y="48" x="0"></rect><rect class="section section1" height="24" width="746.5" y="144" x="0"></rect><rect class="section section1" height="24" width="746.5" y="168" x="0"></rect><rect class="section section1" height="24" width="746.5" y="192" x="0"></rect><rect class="section section0" height="24" width="746.5" y="72" x="0"></rect><rect class="section section1" height="24" width="746.5" y="216" x="0"></rect><rect class="section section1" height="24" width="746.5" y="240" x="0"></rect><rect class="section section1" height="24" width="746.5" y="264" x="0"></rect><rect class="section section1" height="24" width="746.5" y="336" x="0"></rect><rect class="section section1" height="24" width="746.5" y="360" x="0"></rect><rect class="section section0" height="24" width="746.5" y="96" x="0"></rect><rect class="section section1" height="24" width="746.5" y="288" x="0"></rect><rect class="section section1" height="24" width="746.5" y="312" x="0"></rect><rect class="section section0" height="24" width="746.5" y="120" x="0"></rect></g><g><rect class="task task0" transform-origin="392px 60px" height="20" width="634" y="50" x="75" ry="3" rx="3" id="improve"></rect><rect class="task task1" transform-origin="85px 156px" height="20" width="20" y="146" x="75" ry="3" rx="3" id="wg"></rect><rect class="task task1" transform-origin="127px 180px" height="20" width="64" y="170" x="95" ry="3" rx="3" id="agree"></rect><rect class="task task1" transform-origin="127px 204px" height="20" width="64" y="194" x="95" ry="3" rx="3" id="barriers"></rect><rect class="task task0" transform-origin="434px 84px" height="20" width="550" y="74" x="159" ry="3" rx="3" id="imp_proj_web"></rect><rect class="task milestone  task1" transform-origin="164.5px 228px" height="20" width="20" y="218" x="154.5" ry="3" rx="3" id="web_proj"></rect><rect class="task milestone  task1" transform-origin="175.5px 252px" height="20" width="20" y="242" x="165.5" ry="3" rx="3" id="consensus"></rect><rect class="task milestone  task1" transform-origin="175.5px 276px" height="20" width="20" y="266" x="165.5" ry="3" rx="3" id="web_reops"></rect><rect class="task task1" transform-origin="201.5px 348px" height="20" width="63" y="338" x="170" ry="3" rx="3" id="collab_wp2"></rect><rect class="task task1" transform-origin="201.5px 372px" height="20" width="63" y="362" x="170" ry="3" rx="3" id="de_wp3"></rect><rect class="task task0" transform-origin="445px 108px" height="20" width="528" y="98" x="181" ry="3" rx="3" id="imp_reops_web"></rect><rect class="task milestone  task1" transform-origin="333.5px 300px" height="20" width="20" y="290" x="323.5" ry="3" rx="3" id="template_dmp"></rect><rect class="task milestone  task1" transform-origin="333.5px 324px" height="20" width="20" y="314" x="323.5" ry="3" rx="3" id="seedcase"></rect><rect class="task task0" transform-origin="524px 132px" height="20" width="370" y="122" x="339" ry="3" rx="3" id="imp_seedcase"></rect><text class="taskText taskText0  width-179.765625" y="63.5" x="392" font-size="11" id="improve-text">Assess and improve on collaboration</text><text class="taskTextOutsideRight taskTextOutside1  width-122.78369140625" y="159.5" x="100" font-size="11" id="wg-text">Establish working groups</text><text class="taskTextOutsideRight taskTextOutside1  width-203.625" y="183.5" x="164" font-size="11" id="agree-text">Discuss and agree on ways to collaborate</text><text class="taskTextOutsideRight taskTextOutside1  width-230.53125" y="207.5" x="164" font-size="11" id="barriers-text">Identify barriers and challenges to collaboration</text><text class="taskText taskText0  width-171.84375" y="87.5" x="434" font-size="11" id="imp_proj_web-text">Develop and add to project website</text><text class="taskTextOutsideRight taskTextOutside1  milestoneText width-245.05126953125" y="231.5" x="179.5" font-size="11" id="web_proj-text">Setup DP-Next project website with current details</text><text class="taskTextOutsideRight taskTextOutside1  milestoneText width-329.10888671875" y="255.5" x="190.5" font-size="11" id="consensus-text">Consensus document on project’s agreed processes and workflows</text><text class="taskTextOutsideRight taskTextOutside1  milestoneText width-231.140625" y="279.5" x="190.5" font-size="11" id="web_reops-text">Setup research ops practices pages on website</text><text class="taskTextOutsideRight taskTextOutside1  width-219.484375" y="351.5" x="238" font-size="11" id="collab_wp2-text">Document workflow for collaboration on WP2</text><text class="taskTextOutsideRight taskTextOutside1  width-218.921875" y="375.5" x="238" font-size="11" id="de_wp3-text">Document data engineering pipeline for WP3</text><text class="taskText taskText0  width-202.40625" y="111.5" x="445" font-size="11" id="imp_reops_web-text">Develop and add to research ops website</text><text class="taskTextOutsideRight taskTextOutside1  milestoneText width-273.3125" y="303.5" x="348.5" font-size="11" id="template_dmp-text">Open-source Data Management Plan template, for WP3</text><text class="taskTextOutsideRight taskTextOutside1  milestoneText width-261.671875" y="327.5" x="348.5" font-size="11" id="seedcase-text">Use NNF-funded data infrastructure software for WP3</text><text class="taskText taskText0  width-268.453125" y="135.5" x="524" font-size="11" id="imp_seedcase-text">Maintenance of Seedcase-managed data infrastructure</text></g><g><text class="sectionTitle sectionTitle0" font-size="11" y="98" x="10" dy="-0.5em"><tspan x="10" alignment-baseline="central">Ongoing</tspan><tspan dy="1em" x="10" alignment-baseline="central">activities</tspan></text><text class="sectionTitle sectionTitle1" font-size="11" y="266" x="10" dy="0em"><tspan x="10" alignment-baseline="central">Setup</tspan></text></g><text class="titleText" y="25" x="392">Tasks, Milestones, and Deliverables for WP1</text>
-</svg>
+<pre class="mermaid mermaid-js" data-label="fig-gantt-wp1">%%{init: {
+  'theme': 'neutral', 
+  'gantt': {
+    'barHeight': 25,
+    'leftPadding': 100
+  }
+}}%%
+gantt
+  title Tasks (T), Milestones (M), and Deliverables (D) for WP1
+  dateFormat  YYYY-MM-DD
+  axisFormat %Y
+  tickInterval 1year
+  todayMarker off
+  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+  section Ongoing&lt;br&gt;activities
+  T4. Iterate and refine collaboration: imp_collab, 2025-01-01, 5y
+  T5. Develop project website: imp_proj_web, after collab_agree, 2030-01-01
+  T9. Develop research ops website: imp_reops_web, after consensus, 2030-01-01
+  T10. Maintain data infrastructure: imp_seedcase, after seedcase, 2030-01-01
+
+  section General&lt;br&gt;setup
+  T1. Establish working groups: wg, 2025-01-01, 2M
+  T2.  Decide on collaboration approaches: collab_agree, after wg, 10M
+  T3. Identify collaboration barriers: barriers, after wg, 10M
+  M1. Setup project website: milestone, web_proj, after barriers, 1M
+  D1. Collaboration workflow consensus report: milestone, consensus, after web_proj, 1M
+  M3. Webpage for research ops: milestone, web_reops, after web_proj, 1M
+
+  section WP2-linked&lt;br&gt;activities
+  T6. Setup collaboration workflow: collab_wp2, after web_proj, 6M
+  D1. R package infrastructure template: milestone, template_rpkg, 2026-06-01, 1M
+
+  section WP3-linked&lt;br&gt;activities
+  T7. Setup data engineering pipeline: de_wp3, after web_proj, 6M
+  D2. Data engineering pipeline report: milestone, der_wp3, after de_wp3, 1M
+  D3. Data Management Plan template: milestone, template_dmp, 2027-01-01, 1M 
+  M4. Setup data infrastructure: milestone, seedcase, 2027-01-01, 1M
+
+  section WP4-linked&lt;br&gt;activities
+  M2. Setup knowledge repo: milestone, kr_wp4, after collab_agree, 1M
+  T8. Build knowledge dissemination pipeline: kmp_wp4, after kr_wp4, 6M  
+
+
+
+
+</pre>
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-gantt-wp1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
