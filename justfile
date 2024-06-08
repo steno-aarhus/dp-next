@@ -7,6 +7,4 @@ generate-puml:
 
 # Build the website using Quarto
 build-website:
-  # This can't install chromium, need to run installed version of quarto
-  # docker run --rm -v $(pwd):/site -w /site ghcr.io/quarto-dev/quarto:latest quarto render
   quarto preview
