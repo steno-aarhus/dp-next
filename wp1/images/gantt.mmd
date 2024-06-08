@@ -1,17 +1,12 @@
----
-config:
-    theme: "neutral"
-    themeCSS: "svg {width: 700px}"
-    gantt:
-        barHeight: 30
-        leftPadding: 175
-        fontSize: 20
-        sectionFontSize: 20
-        barGap: 10
----
-
+%%{init: {
+  'theme': 'neutral', 
+  'gantt': {
+    'barHeight': 25,
+    'leftPadding': 125
+  }
+}}%%
 gantt
-    title Estimated timeline for DP-Next project
+    title Estimated timeline and activities for DP-Next project
     dateFormat  YYYY-MM-DD
     axisFormat %Y
     tickInterval 1year
@@ -19,23 +14,21 @@ gantt
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
     section WP1<br>Management<br>and Collaboration
-    Task 1.1 General project management: t1_1, 2025-01-01, 5y
-    Task 1.2 Optimising collaboration: t1_2, 2025-01-01, 5y
+    T1.1 General project management: t1_1, 2025-01-01, 5y
+    T1.2 Optimising collaboration: t1_2, 2025-01-01, 5y
 
     section WP2<br>Risk Prediction
-    Task 2.1 Separate risk prediction model development : t2_1, 2025-01-01, 18M
-    Task 2.2 Machine Learning approaches for risk prediction : t2_2, 2026-01-01, 18M
-    Task 2.3 Joint risk prediction model development : t2_3, 2026-07-01, 18M
+    T2.1 Separate model development: t2_1, 2025-01-01, 18M
+    T2.2 Machine Learning approaches: t2_2, 2026-01-01, 18M
+    T2.3 Joint model development: t2_3, 2026-07-01, 18M
+    T2.4 Validation: t2_4, 2028-01-01, 18M
 
     section WP3<br>Heterogeneity
-    Task 3.1 Advanced clustering models : t3_1, 2027-07-01, 18M
-    Task 3.2 Deep phenotyping substudy : t3_2, 2025-07-01, 54M
+    T3.1 Advanced clustering models: t3_1, 2027-07-01, 18M
+    T3.2 Deep phenotyping substudy: t3_2, 2025-07-01, 54M
 
     section WP4<br>Development<br>and intervention
-    Task 4.1 Investigate barriers and facilitators : t4_1, 2025-01-01, 18M
-    Task 4.2 Develop and co-design intervention activities : t4_2, after t4_1, 18M
-
-    section WP5<br>Evaluation<br>of intervention
-    Task 5.1 Validation of risk prediction models : t5_1, 2028-01-01, 18M
-    Task 5.2 Pilot testing of intervention components in specific populations : t5_2, 2028-01-01, 1y
-    Task 5.3 Evaluation of intervention : t5_3, 2028-07-01, 18M
+    T4.1 Investigate barriers and facilitators: t4_1, 2025-01-01, 18M
+    T4.2 Develop & co-design: t4_2, after t4_1, 18M
+    T4.3 Pilot test in specific populations: t4_3, after t4_2, 1y
+    T4.4 Evaluation: t4_4, 2028-07-01, 18M

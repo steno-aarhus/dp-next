@@ -1,17 +1,12 @@
----
-config:
-    theme: "neutral"
-    themeCSS: "svg {width: 700px}"
-    gantt:
-        barHeight: 50
-        leftPadding: 175
-        fontSize: 20
-        sectionFontSize: 20
-        barGap: 10
----
-
+%%{init: {
+  'theme': 'neutral', 
+  'gantt': {
+    'barHeight': 25,
+    'leftPadding': 100
+  }
+}}%%
 gantt
-  title Tasks, Milestones, and Deliverables for WP1
+  title Tasks (T), Milestones (M), and Deliverables (D) for WP1
   dateFormat  YYYY-MM-DD
   axisFormat %Y
   tickInterval 1year
@@ -19,24 +14,32 @@ gantt
   %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
   section Ongoing<br>activities
-  Assess and improve on collaboration: improve, 2025-01-01, 5y
-  Develop and add to project website: imp_proj_web, after agree, 2030-01-01
-  Develop and add to research ops website: imp_reops_web, after consensus, 2030-01-01
-  Maintenance of Seedcase-managed data infrastructure: imp_seedcase, after seedcase, 2030-01-01
+  T4. Iterate and refine collaboration: imp_collab, 2025-01-01, 5y
+  T5. Develop project website: imp_proj_web, after collab_agree, 2030-01-01
+  T9. Develop research ops website: imp_reops_web, after consensus, 2030-01-01
+  T10. Maintain data infrastructure: imp_seedcase, after seedcase, 2030-01-01
 
-  section Setup
-  Establish working groups: wg, 2025-01-01, 2M
-  Discuss and agree on ways to collaborate: agree, after wg, 6M
-  Identify barriers and challenges to collaboration: barriers, after wg, 6M
+  section General<br>setup
+  T1. Establish working groups: wg, 2025-01-01, 2M
+  T2.  Decide on collaboration approaches: collab_agree, after wg, 10M
+  T3. Identify collaboration barriers: barriers, after wg, 10M
+  M1. Setup project website: milestone, web_proj, after barriers, 1M
+  D1. Collaboration workflow consensus report: milestone, consensus, after web_proj, 1M
+  M3. Webpage for research ops: milestone, web_reops, after web_proj, 1M
 
-  Setup DP-Next project website with current details: milestone, web_proj, after barriers, 1M
-  Consensus document on project's agreed processes and workflows: milestone, consensus, after web_proj, 1M
-  Setup research ops practices pages on website: milestone, web_reops, after web_proj, 1M
-  Open-source Data Management Plan template, for WP3: milestone, template_dmp, 2027-01-01, 1M 
-  Use NNF-funded data infrastructure software for WP3: milestone, seedcase, 2027-01-01, 1M
+  section WP2-linked<br>activities
+  T6. Setup collaboration workflow: collab_wp2, after web_proj, 6M
+  D1. R package infrastructure template: milestone, template_rpkg, 2026-06-01, 1M
 
-  Document workflow for collaboration on WP2: collab_wp2, after web_proj, 6M
-  Document data engineering pipeline for WP3: de_wp3, after web_proj, 6M
+  section WP3-linked<br>activities
+  T7. Setup data engineering pipeline: de_wp3, after web_proj, 6M
+  D2. Data engineering pipeline report: milestone, der_wp3, after de_wp3, 1M
+  D3. Data Management Plan template: milestone, template_dmp, 2027-01-01, 1M 
+  M4. Setup data infrastructure: milestone, seedcase, 2027-01-01, 1M
+
+  section WP4-linked<br>activities
+  M2. Setup knowledge repo: milestone, kr_wp4, after collab_agree, 1M
+  T8. Build knowledge dissemination pipeline: kmp_wp4, after kr_wp4, 6M  
 
 
 

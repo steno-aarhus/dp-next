@@ -9,7 +9,7 @@ state "Management" as mgt {
 
     state "Research ops\ncommittee (WP1)" as roc
     roc : - Lead: Luke W. Johnston (A)
-    roc : - People: 4 (3 tech leads\n  from each center,\n  1 coordinator)
+    roc : - People: 8 (1 tech lead\n  from each center,\n  1 coordinator)
 }
 
 state "Individual WPs" as wps {
