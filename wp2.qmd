@@ -1,5 +1,5 @@
 ---
-title: "Work Package 2"
+title: "Work Package 2: Risk Prediction"
 ---
 
 The vision for WP2 is to develop an operational risk model that gives an individual diabetes risk prediction for the entire population of Denmark, Greenland and the Faroe Islands.  We will achieve this by designing a risk prediction algorithm based exclusively on existing register-based data. WP2 will have a duration of 3 years (Years 1 to 3 of the project) and includes partners from all 7 Steno Centers.
