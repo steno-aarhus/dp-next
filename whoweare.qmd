@@ -2,8 +2,7 @@
 title: "Who We Are"
 ---
 
-[Daniel Witte](https://orcid.org/0000-0002-4285-5459) is professor of Diabetes Epidemiology at Aarhus University and has worked across various themes in prevention and prediction of diabetes and its complications in (inter)national cohorts and register-based studies. He will be the Principal Investigator of the DP-Next project. 
-https://orcid.org/0000-0002-0769-2922
+[Daniel Witte](https://orcid.org/0000-0002-0769-2922) is professor of Diabetes Epidemiology at Aarhus University and has worked across various themes in prevention and prediction of diabetes and its complications in (inter)national cohorts and register-based studies. He will be the Principal Investigator of the DP-Next project. 
 
 [Stine Byberg](https://orcid.org/0000-0002-3626-3609) is an epidemiologist and Senior researcher at Steno Diabetes Center Copenhagen, and currently also Head of Research at Steno Diabetes Center Greenland. Stine has extensive experience in both conducting and supervising students in prediction models using register-based data. Stine will be the work package leader for Work Package 2.
 
