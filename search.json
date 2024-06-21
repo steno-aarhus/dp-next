@@ -30,14 +30,69 @@
     ]
   },
   {
-    "objectID": "wp1/index.html",
-    "href": "wp1/index.html",
-    "title": "Abstract",
+    "objectID": "wp1/roadmap.html",
+    "href": "wp1/roadmap.html",
+    "title": "Roadmap",
     "section": "",
-    "text": "Science, while generating cutting-edge knowledge, lags behind most industry settings when it comes to practical, operational aspects. For instance, while much of research done now relies heavily on software and computational work, funding agencies rarely fund software and data engineering projects, nor do many research groups hire these highly skilled technical personnel. So, the aim of Work Package 1 is to establish these skills and needs as a core component of this project and to help do “better research in less time”.\nOur basic strategies will be to establish working groups, including a group dedicated to “research operations” to fulfil this core aim, as well as developing and implementing common practices and tools that maximise collaboration and that follow some guiding principles. All groups will include a “tech lead” who has technical knowledge and skills and who will also be part of the research operations group, to help coordinate WP groups with these practices. We aim to onboard and train the tech leads in these practices by embedding them in some work done at SDCA, where these practices have been developing and refining over the last several years. The most relevant practices and skills that this WP1 aims to provide are in software and data engineering, iterative project management, collaborative workflows and tools,\nPertinent to these practices is understanding and assessing risk and challenges. The two biggest challenges we face with this WP1 are:\n\nThe need for highly technical personnel who have sufficient fundamental expertise to understand and apply these practices, which we hope to minimise through the training and onboarding of the tech leads.\nthe IT systems across centers that often don’t work well together, which we hope to reduce the impact of by having a dedicated research operations group.\n\nWhile this WP1 forms the foundation to all other WPs and in many ways aims to support their success, the activities of WP1 are an increasingly needed aspect of research globally. In this regard, we aim to produce tangible and usable deliverables that are independent and valuable on their own.",
+    "text": "This document covers the basic, overall plan for DP-Next as well as the plan for WP1. While the Gantt charts display an overview of the project, the sections below on milestones and deliverables provide more detailed information than what can be put on the charts.\n%%{init: {\n  'theme': 'neutral', \n  'gantt': {\n    'barHeight': 25,\n    'leftPadding': 125\n  }\n}}%%\ngantt\n    title Estimated timeline and activities for DP-Next project\n    dateFormat  YYYY-MM-DD\n    axisFormat %Y\n    tickInterval 1year\n    todayMarker off\n    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n    section WP1&lt;br&gt;Management&lt;br&gt;and Collaboration\n    T1.1 General project management: t1_1, 2025-01-01, 5y\n    T1.2 Optimising collaboration: t1_2, 2025-01-01, 5y\n\n    section WP2&lt;br&gt;Risk Prediction\n    T2.1 Separate model development: t2_1, 2025-01-01, 18M\n    T2.2 Machine Learning approaches: t2_2, 2026-01-01, 18M\n    T2.3 Joint model development: t2_3, 2026-07-01, 18M\n    T2.4 Validation: t2_4, 2028-01-01, 18M\n\n    section WP3&lt;br&gt;Heterogeneity\n    T3.1 Advanced clustering models: t3_1, 2027-07-01, 18M\n    T3.2 Deep phenotyping substudy: t3_2, 2025-07-01, 54M\n\n    section WP4&lt;br&gt;Development&lt;br&gt;and intervention\n    T4.1 Investigate barriers and facilitators: t4_1, 2025-01-01, 18M\n    T4.2 Develop & co-design: t4_2, after t4_1, 18M\n    T4.3 Pilot test in specific populations: t4_3, after t4_2, 1y\n    T4.4 Evaluation: t4_4, 2028-07-01, 18M\n\n\n\n\nFigure 1: Gantt chart showing high-level tasks and deliverables for all WPs within DP-Next.\n%%{init: {\n  'theme': 'neutral', \n  'gantt': {\n    'barHeight': 25,\n    'leftPadding': 100\n  }\n}}%%\ngantt\n  title Tasks (T), Milestones (M), and Deliverables (D) for WP1\n  dateFormat  YYYY-MM-DD\n  axisFormat %Y\n  tickInterval 1year\n  todayMarker off\n  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n  section Ongoing&lt;br&gt;activities\n  T4. Iterate and refine collaboration: imp_collab, 2025-01-01, 5y\n  T5. Develop project website: imp_proj_web, after collab_agree, 2030-01-01\n  T9. Develop research ops website: imp_reops_web, after consensus, 2030-01-01\n  T10. Maintain data infrastructure: imp_seedcase, after seedcase, 2030-01-01\n\n  section General&lt;br&gt;setup\n  T1. Establish working groups: wg, 2025-01-01, 2M\n  T2.  Decide on collaboration approaches: collab_agree, after wg, 10M\n  T3. Identify collaboration barriers: barriers, after wg, 10M\n  M1. Setup project website: milestone, web_proj, after barriers, 1M\n  D1. Collaboration workflow consensus report: milestone, consensus, after web_proj, 1M\n  M3. Webpage for research ops: milestone, web_reops, after web_proj, 1M\n\n  section WP2-linked&lt;br&gt;activities\n  T6. Setup collaboration workflow: collab_wp2, after web_proj, 6M\n  D1. R package infrastructure template: milestone, template_rpkg, 2026-06-01, 1M\n\n  section WP3-linked&lt;br&gt;activities\n  T7. Setup data engineering pipeline: de_wp3, after web_proj, 6M\n  D2. Data engineering pipeline report: milestone, der_wp3, after de_wp3, 1M\n  D3. Data Management Plan template: milestone, template_dmp, 2027-01-01, 1M \n  M4. Setup data infrastructure: milestone, seedcase, 2027-01-01, 1M\n\n  section WP4-linked&lt;br&gt;activities\n  M2. Setup knowledge repo: milestone, kr_wp4, after collab_agree, 1M\n  T8. Build knowledge dissemination pipeline: kmp_wp4, after kr_wp4, 6M  \n\n\n\n\n\n\n\n\nFigure 2: Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1",
     "crumbs": [
-      "Abstract"
+      "Roadmap"
     ]
+  },
+  {
+    "objectID": "wp1/roadmap.html#milestones",
+    "href": "wp1/roadmap.html#milestones",
+    "title": "Roadmap",
+    "section": "Milestones",
+    "text": "Milestones\n\nSetup project website to host details and documents relevant to this project and it’s WPs\nSetup website to document and describe research operational practices used across Centers for easier sharing and onboarding\nOpen-source template Data Management Plan to use for WP3\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2",
+    "crumbs": [
+      "Roadmap"
+    ]
+  },
+  {
+    "objectID": "wp1/roadmap.html#deliverables",
+    "href": "wp1/roadmap.html#deliverables",
+    "title": "Roadmap",
+    "section": "Deliverables",
+    "text": "Deliverables\n\n\n\n\n\n\nReports\n\nConsensus document on agreed upon processes and workflows between WPs\nResearch operational management practices and processes employed in a large-scale multi-centered project: Future uses of using modern approaches to team-based research\nDP-Next as an open-access and secure Data Resource for broader re-use of collected data for researchers (using SDCA-developed, NNF-funded Seedcase software)\nChallenges and lessons learned in applying modern research ops and data engineering to a large-scale, multi-center project\n\n\n\nResources\n\nEach center has resources and workflows for conducting reproducible and modern register-based research using the Danish registers\nDP-Next data resource\nDP-Next project website, with all (internal and external) knowledge generated, including all code and documentation",
+    "crumbs": [
+      "Roadmap"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "DP-Next is a project in development aimed at developing a sustainably effective strategy for prevention of Type 2 Diabetes in Denmark, Greenland and the Faroe Islands. The project is currently in development and seeking funding. The full name of the project is: Sustainable Type 2 Diabetes Prevention for the 21st Century. We call it DP-Next because we intend to develop the next generation of Diabetes Prevention strategies."
+  },
+  {
+    "objectID": "index.html#what-is-dp-next",
+    "href": "index.html#what-is-dp-next",
+    "title": "Overview",
+    "section": "",
+    "text": "DP-Next is a project in development aimed at developing a sustainably effective strategy for prevention of Type 2 Diabetes in Denmark, Greenland and the Faroe Islands. The project is currently in development and seeking funding. The full name of the project is: Sustainable Type 2 Diabetes Prevention for the 21st Century. We call it DP-Next because we intend to develop the next generation of Diabetes Prevention strategies."
+  },
+  {
+    "objectID": "index.html#why-is-a-new-strategy-for-diabetes-prevention-necessary",
+    "href": "index.html#why-is-a-new-strategy-for-diabetes-prevention-necessary",
+    "title": "Overview",
+    "section": "Why is a new strategy for diabetes prevention necessary?",
+    "text": "Why is a new strategy for diabetes prevention necessary?\nWe have known for over two decades that it is possible -in principle- to prevent Type 2 Diabetes in people at very high risk by encouraging them to participate in a very intensive lifestyle modification programme.\n\n\nThe original Diabetes Prevention Studies were conducted around the turn of the century.\n\n\n\nThe Diabetes Prevention Program (USA)\n\n\nThe Diabetes Prevention Study (Finland)\n\n\nThe Da Qing Study (China)\n\n\n\nUnfortunately, subsequent efforts to translate the benefits from these efficacy trials into sustainable day to day practice have largely failed. The first main issue is that the resources and intensity of the trial interventions are not practically achievable at large scale. Studies that have applied less intensive lifestyle interventions have generally shown only temporary impacts on weight, but no long-term impact on diabetes incidence. The second main issue is that the particular subgroup of pre-diabetes recruited into the trials (IGT) is the group at highest diabetes risk, but is rarely identified in daily practice especially since HbA1c has replaced the oral glucose tolerance test (OGTT) as the main diagnostic tool in Europe and the US since 2014.\nIn other words:\n\nThe population with high diabetes risk today is much more heterogeneous compared to the participants in the original prevention trials\nThe intensity of intervention applied in the efficacy trials is not pragmatically or sustainably achievable.\n\n\nWhat has changed since?\nThe past decades have brought a lot of new opportunities for diabetes prevention, which are currently often underutilised:\n\nExtensive, linkable health registers with population-wide coverage\nAdvanced statistical and machine learning methods\nDeeper insight into psychosocial barriers for sustainable health behaviour change\nStronger experience with methods for development of complex interventions\nExpanding evidence for substantial heterogeneity in (pre)diabetes and diabetes risk\nAdvanced technology for real time measurements (CGM, sleep, physical activity)\nWidespread adoption of communication via smartphones and use of apps"
+  },
+  {
+    "objectID": "index.html#what-will-dp-next-do",
+    "href": "index.html#what-will-dp-next-do",
+    "title": "Overview",
+    "section": "What will DP-Next do?",
+    "text": "What will DP-Next do?\nWe aim to use these developments to design and deliver a sustainably effective strategy for prevention of T2D in Denmark, Greenland and the Faroe Islands.\nWe will work towards this aim in four Work Packages (WP) across all seven Steno Diabetes Centres:\n\n\n\n\n\n\nFigure 1: There are 5 Steno Diabetes Centers in Denmark, one in Greenland and one on the Faroe Islands.\n\n\n\nWP1 (Management and Collaboration) will manage the project and foster deep collaboration between all partners. WP2 (Risk Prediction) will develop an exclusively register-based diabetes risk prediction model for the entire Danish, Greenlandic and Faroese populations, applying advanced statistical and machine learning approaches on a wide set of risk indicators. It will map out meaningful subgroups and validate internally and in external populations. WP3 (Heterogeneity) will map out heterogeneity in T2D risk in a subgroup of ~1000 participants with HbA1c-based pre-diabetes with a special focus on regional fat distribution, hepatic steatosis and insulin resistance. WP4 (Intervention Development) will develop an intervention for sustainable primary diabetes prevention based on co-creation, a systems approach and the “Complex Interventions” framework and evaluate the pragmatic feasibility of intervention components in two risk subgroups in real life practical settings.\nSee the WP tabs for more details about each Work Packages"
+  },
+  {
+    "objectID": "index.html#who-are-we",
+    "href": "index.html#who-are-we",
+    "title": "Overview",
+    "section": "Who are we?",
+    "text": "Who are we?\nDP-Next will be carried out by a cross disciplinary team of epidemiologists, clinicians, health scientists and data scientists across all seven Steno Diabetes Centres."
   },
   {
     "objectID": "wp1/strategy.html",
@@ -100,68 +155,13 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Overview",
+    "objectID": "wp1/index.html",
+    "href": "wp1/index.html",
+    "title": "Abstract",
     "section": "",
-    "text": "DP-Next is a project in development aimed at developing a sustainably effective strategy for prevention of Type 2 Diabetes in Denmark, Greenland and the Faroe Islands. The project is currently in development and seeking funding. The full name of the project is: Sustainable Type 2 Diabetes Prevention for the 21st Century. We call it DP-Next because we intend to develop the next generation of Diabetes Prevention strategies."
-  },
-  {
-    "objectID": "index.html#what-is-dp-next",
-    "href": "index.html#what-is-dp-next",
-    "title": "Overview",
-    "section": "",
-    "text": "DP-Next is a project in development aimed at developing a sustainably effective strategy for prevention of Type 2 Diabetes in Denmark, Greenland and the Faroe Islands. The project is currently in development and seeking funding. The full name of the project is: Sustainable Type 2 Diabetes Prevention for the 21st Century. We call it DP-Next because we intend to develop the next generation of Diabetes Prevention strategies."
-  },
-  {
-    "objectID": "index.html#why-is-a-new-strategy-for-diabetes-prevention-necessary",
-    "href": "index.html#why-is-a-new-strategy-for-diabetes-prevention-necessary",
-    "title": "Overview",
-    "section": "Why is a new strategy for diabetes prevention necessary?",
-    "text": "Why is a new strategy for diabetes prevention necessary?\nWe have known for over two decades that it is possible -in principle- to prevent Type 2 Diabetes in people at very high risk by encouraging them to participate in a very intensive lifestyle modification programme.\n\n\nThe original Diabetes Prevention Studies were conducted around the turn of the century.\n\n\n\nThe Diabetes Prevention Program (USA)\n\n\nThe Diabetes Prevention Study (Finland)\n\n\nThe Da Qing Study (China)\n\n\n\nUnfortunately, subsequent efforts to translate the benefits from these efficacy trials into sustainable day to day practice have largely failed. The first main issue is that the resources and intensity of the trial interventions are not practically achievable at large scale. Studies that have applied less intensive lifestyle interventions have generally shown only temporary impacts on weight, but no long-term impact on diabetes incidence. The second main issue is that the particular subgroup of pre-diabetes recruited into the trials (IGT) is the group at highest diabetes risk, but is rarely identified in daily practice especially since HbA1c has replaced the oral glucose tolerance test (OGTT) as the main diagnostic tool in Europe and the US since 2014.\nIn other words:\n\nThe population with high diabetes risk today is much more heterogeneous compared to the participants in the original prevention trials\nThe intensity of intervention applied in the efficacy trials is not pragmatically or sustainably achievable.\n\n\nWhat has changed since?\nThe past decades have brought a lot of new opportunities for diabetes prevention, which are currently often underutilised:\n\nExtensive, linkable health registers with population-wide coverage\nAdvanced statistical and machine learning methods\nDeeper insight into psychosocial barriers for sustainable health behaviour change\nStronger experience with methods for development of complex interventions\nExpanding evidence for substantial heterogeneity in (pre)diabetes and diabetes risk\nAdvanced technology for real time measurements (CGM, sleep, physical activity)\nWidespread adoption of communication via smartphones and use of apps"
-  },
-  {
-    "objectID": "index.html#what-will-dp-next-do",
-    "href": "index.html#what-will-dp-next-do",
-    "title": "Overview",
-    "section": "What will DP-Next do?",
-    "text": "What will DP-Next do?\nWe aim to use these developments to design and deliver a sustainably effective strategy for prevention of T2D in Denmark, Greenland and the Faroe Islands.\nWe will work towards this aim in four Work Packages (WP) across all seven Steno Diabetes Centres:\n\n\n\n\n\n\nFigure 1: There are 5 Steno Diabetes Centers in Denmark, one in Greenland and one on the Faroe Islands.\n\n\n\nWP1 (Management and Collaboration) will manage the project and foster deep collaboration between all partners. WP2 (Risk Prediction) will develop an exclusively register-based diabetes risk prediction model for the entire Danish, Greenlandic and Faroese populations, applying advanced statistical and machine learning approaches on a wide set of risk indicators. It will map out meaningful subgroups and validate internally and in external populations. WP3 (Heterogeneity) will map out heterogeneity in T2D risk in a subgroup of ~1000 participants with HbA1c-based pre-diabetes with a special focus on regional fat distribution, hepatic steatosis and insulin resistance. WP4 (Intervention Development) will develop an intervention for sustainable primary diabetes prevention based on co-creation, a systems approach and the “Complex Interventions” framework and evaluate the pragmatic feasibility of intervention components in two risk subgroups in real life practical settings.\nSee the WP tabs for more details about each Work Packages"
-  },
-  {
-    "objectID": "index.html#who-are-we",
-    "href": "index.html#who-are-we",
-    "title": "Overview",
-    "section": "Who are we?",
-    "text": "Who are we?\nDP-Next will be carried out by a cross disciplinary team of epidemiologists, clinicians, health scientists and data scientists across all seven Steno Diabetes Centres."
-  },
-  {
-    "objectID": "wp1/roadmap.html",
-    "href": "wp1/roadmap.html",
-    "title": "Roadmap",
-    "section": "",
-    "text": "This document covers the basic, overall plan for DP-Next as well as the plan for WP1. While the Gantt charts display an overview of the project, the sections below on milestones and deliverables provide more detailed information than what can be put on the charts.\n%%{init: {\n  'theme': 'neutral', \n  'gantt': {\n    'barHeight': 25,\n    'leftPadding': 125\n  }\n}}%%\ngantt\n    title Estimated timeline and activities for DP-Next project\n    dateFormat  YYYY-MM-DD\n    axisFormat %Y\n    tickInterval 1year\n    todayMarker off\n    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n    section WP1&lt;br&gt;Management&lt;br&gt;and Collaboration\n    T1.1 General project management: t1_1, 2025-01-01, 5y\n    T1.2 Optimising collaboration: t1_2, 2025-01-01, 5y\n\n    section WP2&lt;br&gt;Risk Prediction\n    T2.1 Separate model development: t2_1, 2025-01-01, 18M\n    T2.2 Machine Learning approaches: t2_2, 2026-01-01, 18M\n    T2.3 Joint model development: t2_3, 2026-07-01, 18M\n    T2.4 Validation: t2_4, 2028-01-01, 18M\n\n    section WP3&lt;br&gt;Heterogeneity\n    T3.1 Advanced clustering models: t3_1, 2027-07-01, 18M\n    T3.2 Deep phenotyping substudy: t3_2, 2025-07-01, 54M\n\n    section WP4&lt;br&gt;Development&lt;br&gt;and intervention\n    T4.1 Investigate barriers and facilitators: t4_1, 2025-01-01, 18M\n    T4.2 Develop & co-design: t4_2, after t4_1, 18M\n    T4.3 Pilot test in specific populations: t4_3, after t4_2, 1y\n    T4.4 Evaluation: t4_4, 2028-07-01, 18M\n\n\n\n\nFigure 1: Gantt chart showing high-level tasks and deliverables for all WPs within DP-Next.\n%%{init: {\n  'theme': 'neutral', \n  'gantt': {\n    'barHeight': 25,\n    'leftPadding': 100\n  }\n}}%%\ngantt\n  title Tasks (T), Milestones (M), and Deliverables (D) for WP1\n  dateFormat  YYYY-MM-DD\n  axisFormat %Y\n  tickInterval 1year\n  todayMarker off\n  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (\"sunday\") or \"weekends\", but not the word \"weekdays\".)\n\n  section Ongoing&lt;br&gt;activities\n  T4. Iterate and refine collaboration: imp_collab, 2025-01-01, 5y\n  T5. Develop project website: imp_proj_web, after collab_agree, 2030-01-01\n  T9. Develop research ops website: imp_reops_web, after consensus, 2030-01-01\n  T10. Maintain data infrastructure: imp_seedcase, after seedcase, 2030-01-01\n\n  section General&lt;br&gt;setup\n  T1. Establish working groups: wg, 2025-01-01, 2M\n  T2.  Decide on collaboration approaches: collab_agree, after wg, 10M\n  T3. Identify collaboration barriers: barriers, after wg, 10M\n  M1. Setup project website: milestone, web_proj, after barriers, 1M\n  D1. Collaboration workflow consensus report: milestone, consensus, after web_proj, 1M\n  M3. Webpage for research ops: milestone, web_reops, after web_proj, 1M\n\n  section WP2-linked&lt;br&gt;activities\n  T6. Setup collaboration workflow: collab_wp2, after web_proj, 6M\n  D1. R package infrastructure template: milestone, template_rpkg, 2026-06-01, 1M\n\n  section WP3-linked&lt;br&gt;activities\n  T7. Setup data engineering pipeline: de_wp3, after web_proj, 6M\n  D2. Data engineering pipeline report: milestone, der_wp3, after de_wp3, 1M\n  D3. Data Management Plan template: milestone, template_dmp, 2027-01-01, 1M \n  M4. Setup data infrastructure: milestone, seedcase, 2027-01-01, 1M\n\n  section WP4-linked&lt;br&gt;activities\n  M2. Setup knowledge repo: milestone, kr_wp4, after collab_agree, 1M\n  T8. Build knowledge dissemination pipeline: kmp_wp4, after kr_wp4, 6M  \n\n\n\n\n\n\n\n\nFigure 2: Gantt chart showing some basic tasks, milestones, and deliverables for Work Package 1",
+    "text": "Science, while generating cutting-edge knowledge, lags behind most industry settings when it comes to practical, operational aspects. For instance, while much of research done now relies heavily on software and computational work, funding agencies rarely fund software and data engineering projects, nor do many research groups hire these highly skilled technical personnel. So, the aim of Work Package 1 is to establish these skills and needs as a core component of this project and to help do “better research in less time”.\nOur basic strategies will be to establish working groups, including a group dedicated to “research operations” to fulfil this core aim, as well as developing and implementing common practices and tools that maximise collaboration and that follow some guiding principles. All groups will include a “tech lead” who has technical knowledge and skills and who will also be part of the research operations group, to help coordinate WP groups with these practices. We aim to onboard and train the tech leads in these practices by embedding them in some work done at SDCA, where these practices have been developing and refining over the last several years. The most relevant practices and skills that this WP1 aims to provide are in software and data engineering, iterative project management, collaborative workflows and tools,\nPertinent to these practices is understanding and assessing risk and challenges. The two biggest challenges we face with this WP1 are:\n\nThe need for highly technical personnel who have sufficient fundamental expertise to understand and apply these practices, which we hope to minimise through the training and onboarding of the tech leads.\nthe IT systems across centers that often don’t work well together, which we hope to reduce the impact of by having a dedicated research operations group.\n\nWhile this WP1 forms the foundation to all other WPs and in many ways aims to support their success, the activities of WP1 are an increasingly needed aspect of research globally. In this regard, we aim to produce tangible and usable deliverables that are independent and valuable on their own.",
     "crumbs": [
-      "Roadmap"
-    ]
-  },
-  {
-    "objectID": "wp1/roadmap.html#milestones",
-    "href": "wp1/roadmap.html#milestones",
-    "title": "Roadmap",
-    "section": "Milestones",
-    "text": "Milestones\n\nSetup project website to host details and documents relevant to this project and it’s WPs\nSetup website to document and describe research operational practices used across Centers for easier sharing and onboarding\nOpen-source template Data Management Plan to use for WP3\nSetup research data infrastructure that supports adhering to open FAIR practices for ease of internal and external sharing of data for WP3 (using software built from NNF-funded project from SDCA called Seedcase: https://seedcase-project.org/)\nOpen-source templates for building software package/app for risk prediction engine from WP2",
-    "crumbs": [
-      "Roadmap"
-    ]
-  },
-  {
-    "objectID": "wp1/roadmap.html#deliverables",
-    "href": "wp1/roadmap.html#deliverables",
-    "title": "Roadmap",
-    "section": "Deliverables",
-    "text": "Deliverables\n\n\n\n\n\n\nReports\n\nConsensus document on agreed upon processes and workflows between WPs\nResearch operational management practices and processes employed in a large-scale multi-centered project: Future uses of using modern approaches to team-based research\nDP-Next as an open-access and secure Data Resource for broader re-use of collected data for researchers (using SDCA-developed, NNF-funded Seedcase software)\nChallenges and lessons learned in applying modern research ops and data engineering to a large-scale, multi-center project\n\n\n\nResources\n\nEach center has resources and workflows for conducting reproducible and modern register-based research using the Danish registers\nDP-Next data resource\nDP-Next project website, with all (internal and external) knowledge generated, including all code and documentation",
-    "crumbs": [
-      "Roadmap"
+      "Abstract"
     ]
   },
   {
