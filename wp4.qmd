@@ -9,7 +9,7 @@ We hypothesise that developing co-created intervention(s) inspired by psychosoci
 
 Several researchers at SDCA, SDCC and SDCS have substantial experience with PSDA in different settings and target groups in Denmark. Employees from all participating SDCs will receive training in how to apply PSDA to solve complex health challenges regarding diabetes prevention. The target group for the training is regional consultants and employees from the selected local communities (e.g. local communities in a municipality) taking part in the development phase. 
 
-## PSDA process components (Figure 4)
+## PSDA process components
 
 ### Stage 1: Preparation phase 
 Review of existing evidence and practice regarding diabetes prevention for the specific target group(s) from WP2 and Selection of Regions, municipalities and local communities and identification of key stakeholders.
@@ -26,6 +26,8 @@ Evaluation
 We will assess if the intervention and study procedures (WP4) are feasible by combining qualitative and quantitative data, focusing on practicality, acceptability, fidelity, and limited-effectiveness testing. Combined, these elements will give an essential understanding of what is required to upscale DP-Next to large-scale testing. The evaluation will be guided by recent frameworks33,34 and will be constructed to allow for systematic documentation of processes and tentative outcomes. A final program theory on “what works for whom under what circumstances" based on the participatory systems dynamic approach will be made, including recommendations for large-scale testing.
 In addition to systems measurements, individual measurements will be collected in order to evaluate the specific actions (specific intervention components), e.g. changes in HbA1c, physical activity, diet patterns, sleep, general well-being, health literacy and social support.
 
+![Steps in the Participatory System Dynamics Approach.](images/Platforms3b.png){#fig-PSDA-steps-WP3}
+
 ## Example of PSDA in a high-risk target group.
 To concretize the PSDA, the process is described in detail for a known high-risk group: ‘Women with a history of gestational diabetes (GDM)’. The same approach will be followed for other identified high-risk groups, ensuring that each group's unique risks and needs are thoroughly assessed and addressed with the same rigour and systematic methodology. 
 
@@ -35,7 +37,8 @@ More than 3,500 (6%) pregnant women are annually diagnosed with GDM in Denmark a
 ### Stage 2:
 The PSDA-example builds on this improvement potential by optimising the clinical follow-up in general practice using PSDA. Potential participants in the GMB process and system mapping (WS1-3) could potentially be: GP´s, families where the mother has been diagnosed with GDM, midwives, health visitors, obstetricians, endocrinologists, NGO´s and primary care coordinators.
 
-### STAGE 3 Based on the system mapping, working groups will be created and actions will start to be developed aiming to increase participation in the clinical follow-up visits at the GP. Thus it could be suggested that women with previous GDM could have a fasting blood glucose and an HbA1c taken postpartum at the 3-months child examination at the GP in order to follow the current Danish guidelines. In addition the woman will be reminded to have an HbA1c taken yearly also in alignment with the current guidelines. Examples of possible actions/interventions could be:
+### Stage 3:
+Based on the system mapping, working groups will be created and actions will start to be developed aiming to increase participation in the clinical follow-up visits at the GP. Thus it could be suggested that women with previous GDM could have a fasting blood glucose and an HbA1c taken postpartum at the 3-months child examination at the GP in order to follow the current Danish guidelines. In addition the woman will be reminded to have an HbA1c taken yearly also in alignment with the current guidelines. Examples of possible actions/interventions could be:
 To develop and evaluate risk communication strategies for GP´s to  women with prior GDM and their families in order to increase continued participation.
 To enhance systems supporting the data-infrastructure, e.g. by using reminders41 and platforms to access data (e.g. existing systems like SAMBLIK and alike) 
  
