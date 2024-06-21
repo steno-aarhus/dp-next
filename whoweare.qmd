@@ -1,6 +1,7 @@
 ---
 title: "Who We Are"
 ---
+DP-Next will be carried out by a cross-disciplinary team of epidemiologists, clinicians, health scientists and data scientists across all seven Steno Diabetes Centres:
 
 [Daniel Witte](https://orcid.org/0000-0002-0769-2922) is professor of Diabetes Epidemiology at Aarhus University and has worked across various themes in prevention and prediction of diabetes and its complications in (inter)national cohorts and register-based studies. He will be the Principal Investigator of the DP-Next project. 
 
