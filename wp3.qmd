@@ -7,6 +7,7 @@ WP3 will characterise heterogeneity among people in early middle age with HbA1c 
 WP3.1 will investigate to which degree detailed biological data (e.g. genetics, omics, health behavioural data) can improve risk prediction within a Danish ([ADDITION-PRO](https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-12-1078)) and a Greenlandic ([Greenland Health Surveys](https://www.tandfonline.com/doi/full/10.1080/22423982.2019.1709257)) context. Both cohorts recruited participants more than a decade ago and examined a wide set of cardiometabolic and genetic risk factors, health behaviours and biomarkers, including fat distribution measures and physical activity measures from week long combined heart rate/accelerometer readings. We will link these cohorts to the register-based risk predictions from WP2 (backdated to each cohort baseline), and examine the added predictive value of individual biological risk indicators and of risk factor clusters. The availability of more than a decade of accrued follow-up for diabetes incidence in these cohorts will enable us to obtain a global indication of diabetes risk clusters within the first year of DP-Next.
 
 ## WP 3.2 Deep Phenotyping of HbA1c defined pre-diabetes
+
 ### Hypothesis: Among individuals with routinely identified prediabetes based on HbA1c, deep phenotyping with non-invasive methods will identify subgroups at the highest risk of progression to T2D and subgroups likely to maintain prediabetes or achieve remission; beyond the predictive ability of age, sex, HbA1c and BMI.
 
 ### Background: 
