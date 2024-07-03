@@ -17,7 +17,7 @@ website:
       - text: WP4
         href: wp4.qmd 
       - text: Who We Are
-        href: whoweare.qmd
+        href: who-we-are.qmd
     tools:
       - icon: github
         href: "https://github.com/steno-aarhus/"
